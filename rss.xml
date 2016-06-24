@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+<channel>
+  <title>Obachuka</title>
+  <link>http://obachuka.com</link>
+  <description>Obachuka's personal website</description>
+  <language>en</language>
+
+  <item>
+    <title>First digital drawing</title>
+    <link>http://obachuka.com/2016/06/23/</link>
+    <description>Following a Kirta tutorial to learn digital drawing.</description>
+  </item>
+
+  <item>
+    <title>I'm back</title>
+    <link>http://obachuka.com/2016/06/22/</link>
+    <description>Road to perfection</description> 
+  </item>
+
+</channel>
+</rss>
