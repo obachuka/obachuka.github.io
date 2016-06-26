@@ -12,18 +12,21 @@
     <title>Practicing brush control</title>
     <link>http://obachuka.com/2016/06/25/</link>
     <description>Apparently I did my RSS description wrong or something.</description>
+    <guid>http://obachuka.com/2016/06/25/</guid>
   </item>
 
   <item>
     <title>First digital drawing</title>
     <link>http://obachuka.com/2016/06/23/</link>
     <description>Following a Kirta tutorial to learn digital drawing.</description>
+    <guid>http://obachuka.com/2016/06/23/</guid>
   </item>
 
   <item>
     <title>I'm back</title>
     <link>http://obachuka.com/2016/06/22/</link>
-    <description>Road to perfection</description> 
+    <description>Road to perfection</description>
+    <guid>http://obachuka.com/2016/06/22/</guid>
   </item>
 
 </channel>
