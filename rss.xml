@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
   <title>Obachuka</title>
   <link>http://obachuka.com</link>
   <description>Obachuka's personal website</description>
+  <atom:link href="http://obachuka.com/rss.xml" rel="self" type="application/rss+xml" />
   <language>en</language>
 
   <item>
     <title>Practicing brush control</title>
     <link>http://obachuka.com/2016/06/25/</link>
-    <description><![CDATA[<p>Yesterday, I had complained about how my brush strokes looked like they were overlapping while I was trying to follow <a href="http://www.davidrevoy.com/article185/tutorial-getting-started-with-krita-1-3-bw-portrait">David Revoy's Krita tutorial</a>. Today I followed <a href="http://www.ctrlpaint.com/videos/brush-control-pt-1">Ctrl+Paint's tutorial</a> on brush control.</p>
-    <img src="http://i.imgur.com/4zvWfiQ.png">
-    <p>The goal of this exercise is to copy the left image using nothing but brush strokes and layers. The ones on the right are mine.</p>
-    <p>It turns out, the secret to smooth looking brush strokes isn't with blending modes or pen sensitivity. It's really about abusing the eraser tool. While I did some erasing with pencil, I didn't rely on it as a primary tool, but more as a way to fix mistakes. And with ink or watercolor, I didn't have the option to erase at all. It never occurred to me to use the eraser as the actual drawing tool. I'd plant down large swatches of color using the brush, then use the eraser to create the edges I wanted, ocassionally using layers to make the process easier.</p>
-    <p>There's also a colored version of this same exercise size sheet I'll work on later. Next though, I want to improve at making clean lines. It's hard to get my lines go where I want using the tablet, and my hands tend to wobble, which is not something that happens when I use real pencils.</p>]]></description>
+    <description>Apparently I did my RSS description wrong or something.</description>
   </item>
 
   <item>
