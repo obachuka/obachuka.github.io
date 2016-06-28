@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Still not ready? Figures...</title>
+    <link>http://obachuka.com/2016/06/27/</link>
+    <description><![CDATA[<p>I've wanted to draw characters for a long time now, but I don't know anything about anatomy. I didn't even know how to draw. So I practiced my lines, my boxes, my perspective, my forms, my shading. It was never good enough.</p> <p>Saying "never good enough" makes me sound like a perfectionist, slaving for hours over my drawings. On the contrary, I put minimal effort into them. I just got bored of still life. I used pencil and a massive canvas (or at least, felt massive to me). Shading things the right value with that tiny pencil nib took forever. It was a tedious process, and just not very fun.</p> <p>I wanted to do people, I wanted to do imaginaray landscapes. But I wasn't ready.</p> <p>I've thought about making this blog for a while now, to chronicle my learning progress, so that one day should I ever be successful, I can point others to this meager blog and tell them the tale of my journey. But I wasn't ready! I haven't got anything to show off! I haven't learned anything worth sharing!</p> <p>And so the months went by and nothing happened. Then one day I bought my domain, and that was it.</p> <p>Today, I spent ten minutes doing gesture drawings with poses, with the <a href="http://www.posemaniacs.com">posemaniacs website</a>.</p> <img src="http://i.imgur.com/KGcyHVq.png"> <p>I'm quite proud to say, it was a complete failure.</p> ]]></description>
+    <guid>http://obachuka.com/2016/06/27/</guid>
+  </item>
+
+  <item>
     <title>Hello world with Emscripten and SDL2</title>
     <link>http://obachuka.com/2016/06/26/</link>
     <description><![CDATA[<p>I tried my hand at compiling C to Javascript using Emscripten. I had trouble getting Emscripten ports working using the default version that comes on Ubuntu 16.04, so I had to build the latest version from source. Xenial Xerus released this year, and it's still out of date.</p> <p>I created a color changing window you can view <a href="http://obachuka.com/zuzu/2016//06/26/zuzu.html">here</a>. The goal is to eventually create a game that also runs in the browser. I hate creating stuff for the web, but I also hate downloading stuff from sites I don't trust. So as the user, I appreciate web ports.</p> <p>I should note that I compiled the color changing window without any optimization flags. It wouldn't work on Chrome when I used them, but they did on Firefox. I'm assuming it's because Chrome hasn't fully implemented asm.js or something else like that. But I want everything I put on the web to work on both Chrome and Firefox.</p> <p>To hell with anything else.</p>]]></description>
