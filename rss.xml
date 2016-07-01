@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Where I began</title>
+    <link>http://obachuka.com/2016/06/30/</link>
+    <description><![CDATA[<p>I spent more of today drawing flat figures of women and men of various heights. It's more or less the same thing as yesterday. I figured it wouldn't be interesting showing the same thing for two posts in a row, and decided to share one of my first pieces of artwork instead.</p> <img src="http://i.imgur.com/cIQdusb.png"> <p>This was my first finished watercolor from a year ago, and took me two days. I was quite proud of it, since I'd never done anything like it before, in terms both watercolor and effort spent. I used a reference piece of art from the movie <i>Nausicaa of the Valley of the Wind</i>. I thought my reference was drawn by Hayao Miyazaki, but I don't actually remember any more.</p> <p>My brother gave me a ton of useful critque, that I was unfortunately never able to incorporate into my later art, because I n ever made any more art afterwards. Moving forward though, I hope to make use of his advice. The contrast was low, the palette was mu ddled, the strokes were unfinished, and the textures were flat. I'll improve upon these in my next watercolor.</p> </body> ]]></description>
+    <guid>http://obachuka.com/2016/06/30/</guid>
+  </item>
+
+  <item>
     <title>Too slow</title>
     <link>http://obachuka.com/2016/06/29/</link>
     <description><![CDATA[<p>I started following Andrew Loomis's <i>Figure Drawing For All It's Worth</i>. Apparently, it's <i>the</i> book for figure drawing. I did these in less than an hour.</p> <img src="https://lh3.googleusercontent.com/V94-A8VCPZ3kNfPbWNo9__RUw0asC8c6417XQgxjxJi2JDD1LCl53VhgxpR-jE-tdCxnT6v6k-nh=w1074-h803-no"> <p>Honestly, I'm not making enough progress. Even if I make this a habit and practice every day, an hour of practice isn't enough to get where I want to be. Let's say outside of work, sleep, eating, and miscellaneous, I have around 4-6 hours of free time. I need to be making the most of that time, not just an hour. I will have to cut the internet out completely; it's a waste of time. I also have roughly 2-3 hours in the morning before I go to work. But I take too long to do anything productive; it takes me an hour just to fully wake up. That's too long. I need to get better sleep. I've tried a lot of things to get better sleep, but really, I just need to be more rigorous about my sleep schedule. I've been getting up at 6am this entire week so far, so I'm off to a good start, but now I just need to maintain it.</p> <p>Back to the drawings themselves, they're completely off. But I think the lengths are mostly right, I need to get the widths more accurate next. The first chapter in the book is all about proportion, so that's what I'm trying to focus on. The thing that will help me most though, is more practice.</p> </body>]]></description>
@@ -35,13 +42,6 @@
     <link>http://obachuka.com/2016/06/26/</link>
     <description><![CDATA[<p>I tried my hand at compiling C to Javascript using Emscripten. I had trouble getting Emscripten ports working using the default version that comes on Ubuntu 16.04, so I had to build the latest version from source. Xenial Xerus released this year, and it's still out of date.</p> <p>I created a color changing window you can view <a href="http://obachuka.com/zuzu/2016//06/26/zuzu.html">here</a>. The goal is to eventually create a game that also runs in the browser. I hate creating stuff for the web, but I also hate downloading stuff from sites I don't trust. So as the user, I appreciate web ports.</p> <p>I should note that I compiled the color changing window without any optimization flags. It wouldn't work on Chrome when I used them, but they did on Firefox. I'm assuming it's because Chrome hasn't fully implemented asm.js or something else like that. But I want everything I put on the web to work on both Chrome and Firefox.</p> <p>To hell with anything else.</p>]]></description>
     <guid>http://obachuka.com/2016/06/26/</guid>
-  </item>
-
-  <item>
-    <title>Practicing brush control</title>
-    <link>http://obachuka.com/2016/06/25/</link>
-    <description>Apparently I did my RSS description wrong or something.</description>
-    <guid>http://obachuka.com/2016/06/25/</guid>
   </item>
 
 </channel>
