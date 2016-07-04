@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Screen resolutions</title>
+    <link>http://obachuka.com/2016/07/03/</link>
+    <description><![CDATA[<p>Something I've always wondered was how 2D games handled screen resolutions. For 3D games, it doesn't matter as much since polygons can be scaled up, but images can't. I've seen <i>Transistor</i> master their art at both 720p and 1080p. Requiring HD at minimum seems common for modern games, which is reasonable. I doubt gamers will be using tiny screens, and even if they did, they should be well aware that some games just don't work on small screens.</p> <p>But what about aspect ratio? For some games, elements can be rearranged, but for games like side-scrolling shooters, changing the aspect ration would affect the gameplay since the screen acts as the boundary for the playing field. This is a problem I'm having with my current game. I use vertical bars, but can't decide what to put in them. Having black bars is just ugly.</p> <p>Also, I won't be uploading anymore code. Even though I think it should be fine, I'm worried about the legal side of things.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/03/</guid>
+  </item>
+
+  <item>
     <title>Dynamically loading code</title>
     <link>http://obachuka.com/2016/07/02/</link>
     <description><![CDATA[<p>I saw Casey Muratori in his <a href="https://handmadehero.org">Handmade Hero</a> series implement dynamic loading with C, and I thought I'd give it a try. It's a really cool idea that I've never seen before, but it looks so simple. Most people seem to opt to use scripting languages, even for smaller projects. <a href="https://github.com/obachuka/zuzu/commit/443ec0dee3d0da3de2c8abf97fcd752d4ead0b50">Commit</a></p> <p>On weekdays I plan on practicing my drawing, while on weekends, I'll do coding. Holidays count as weekends.</p>]]></description>
@@ -34,14 +41,6 @@
     <link>http://obachuka.com/2016/06/29/</link>
     <description><![CDATA[<p>I started following Andrew Loomis's <i>Figure Drawing For All It's Worth</i>. Apparently, it's <i>the</i> book for figure drawing. I did these in less than an hour.</p> <img src="https://lh3.googleusercontent.com/V94-A8VCPZ3kNfPbWNo9__RUw0asC8c6417XQgxjxJi2JDD1LCl53VhgxpR-jE-tdCxnT6v6k-nh=w1074-h803-no"> <p>Honestly, I'm not making enough progress. Even if I make this a habit and practice every day, an hour of practice isn't enough to get where I want to be. Let's say outside of work, sleep, eating, and miscellaneous, I have around 4-6 hours of free time. I need to be making the most of that time, not just an hour. I will have to cut the internet out completely; it's a waste of time. I also have roughly 2-3 hours in the morning before I go to work. But I take too long to do anything productive; it takes me an hour just to fully wake up. That's too long. I need to get better sleep. I've tried a lot of things to get better sleep, but really, I just need to be more rigorous about my sleep schedule. I've been getting up at 6am this entire week so far, so I'm off to a good start, but now I just need to maintain it.</p> <p>Back to the drawings themselves, they're completely off. But I think the lengths are mostly right, I need to get the widths more accurate next. The first chapter in the book is all about proportion, so that's what I'm trying to focus on. The thing that will help me most though, is more practice.</p> </body>]]></description>
     <guid>http://obachuka.com/2016/06/29/</guid>
-  </item>
-
-  <item>
-    <title>Jacking up blog post count</title>
-    <link>http://obachuka.com/2016/06/28/</link>
-    <description><![CDATA[<p>I didn't write a blog post this morning. Once I slip up once, I tend to procrastinate more. I need to be stricter about going to bed on time, and to finish something in the morning before work. Because once work starts, I'll be too lazy afterwards to do anything. And if I'm tired, I'm slower at work at get home later and go to bed later. It's a vicious cycle.</p> <p>I almost considered just skipping today and picking it back up first thing tomorrow, but I forced myself to do <i>something</i>. What did I do?</p> <p><a href="https://github.com/obachuka/zuzu/commit/57666b076489b10ebbd2d0d811c61e715cce0017">I renamed my C structs to use lower_case capitalization</a></p> <p>Pretty pointless, I admit. It's like cheating on your NanoWrimo word count. But I want to do this more to build up that habit than anything else. This blog if focused on quantity, not quality.</p> <p>And besides, lower_case naming seems more C-like. I already know the object will be a struct or a union, because I won't typedef it. It felt weird having everything being lower_case ExceptForStructs. And I don't like typedef'ing in general. I never understood the point of abstraction, it always made things less clear to me. Whenever I looked through library code that made extensive use of typedef's, I'd just end up searching for the definition of that typedef. Then that'll also have a typedef, so I'd search that up too. Blegh.</p> <p>I'm sick of the way I code at work, with tons of abstraction, classes, and configuration. That's why I used C instead of C++: no classes. My code will probably end up with tons of anti-patterns.</p> <p>Yeah whatever.</p>
-]]></description>
-    <guid>http://obachuka.com/2016/06/28/</guid>
   </item>
 
 </channel>
