@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>A game a month</title>
+    <link>http://obachuka.com/2016/07/04/</link>
+    <description><![CDATA[<p>My original plan was to practice drawing on the weekdays and work on code on the weeknds, and my goal was to release a short but finished video game every month. Looking at the progress I made this weekend, working only 2-3 days on a game per week isn't enough to finish it within a month. So I'll have to hold off on my drawings and code on the weekdays as well. Maybe once I get faster at this, I can pick up drawing again.</p> <p>The problem with code is that it's harder to show off than art, especially if I can't open source it. I'll have to get capture software and record my game. Tomorrow I'll have a gif to share.</p> ]]></description>
+    <guid>http://obachuka.com/2016/07/04/</guid>
+  </item>
+
+  <item>
     <title>Screen resolutions</title>
     <link>http://obachuka.com/2016/07/03/</link>
     <description><![CDATA[<p>Something I've always wondered was how 2D games handled screen resolutions. For 3D games, it doesn't matter as much since polygons can be scaled up, but images can't. I've seen <i>Transistor</i> master their art at both 720p and 1080p. Requiring HD at minimum seems common for modern games, which is reasonable. I doubt gamers will be using tiny screens, and even if they did, they should be well aware that some games just don't work on small screens.</p> <p>But what about aspect ratio? For some games, elements can be rearranged, but for games like side-scrolling shooters, changing the aspect ratio would affect the gameplay since the screen acts as the boundary for the playing field. This is a problem I'm having with my current game. I use vertical bars, but can't decide what to put in them. Having black bars is just ugly.</p> <p>Also, I won't be uploading anymore code. Even though I think it should be fine, I'm worried about the legal side of things.</p>]]></description>
@@ -34,13 +41,6 @@
     <link>http://obachuka.com/2016/06/30/</link>
     <description><![CDATA[<p>I spent more of today drawing flat figures of women and men of various heights. It's more or less the same thing as yesterday. I figured it wouldn't be interesting showing the same thing for two posts in a row, and decided to share one of my first pieces of artwork instead.</p> <img src="http://i.imgur.com/cIQdusb.png"> <p>This was my first finished watercolor from a year ago, and took me two days. I was quite proud of it, since I'd never done anything like it before, in terms both watercolor and effort spent. I used a reference piece of art from the movie <i>Nausicaa of the Valley of the Wind</i>. I thought my reference was drawn by Hayao Miyazaki, but I don't actually remember any more.</p> <p>My brother gave me a ton of useful critque, that I was unfortunately never able to incorporate into my later art, because I n ever made any more art afterwards. Moving forward though, I hope to make use of his advice. The contrast was low, the palette was mu ddled, the strokes were unfinished, and the textures were flat. I'll improve upon these in my next watercolor.</p> </body> ]]></description>
     <guid>http://obachuka.com/2016/06/30/</guid>
-  </item>
-
-  <item>
-    <title>Too slow</title>
-    <link>http://obachuka.com/2016/06/29/</link>
-    <description><![CDATA[<p>I started following Andrew Loomis's <i>Figure Drawing For All It's Worth</i>. Apparently, it's <i>the</i> book for figure drawing. I did these in less than an hour.</p> <img src="https://lh3.googleusercontent.com/V94-A8VCPZ3kNfPbWNo9__RUw0asC8c6417XQgxjxJi2JDD1LCl53VhgxpR-jE-tdCxnT6v6k-nh=w1074-h803-no"> <p>Honestly, I'm not making enough progress. Even if I make this a habit and practice every day, an hour of practice isn't enough to get where I want to be. Let's say outside of work, sleep, eating, and miscellaneous, I have around 4-6 hours of free time. I need to be making the most of that time, not just an hour. I will have to cut the internet out completely; it's a waste of time. I also have roughly 2-3 hours in the morning before I go to work. But I take too long to do anything productive; it takes me an hour just to fully wake up. That's too long. I need to get better sleep. I've tried a lot of things to get better sleep, but really, I just need to be more rigorous about my sleep schedule. I've been getting up at 6am this entire week so far, so I'm off to a good start, but now I just need to maintain it.</p> <p>Back to the drawings themselves, they're completely off. But I think the lengths are mostly right, I need to get the widths more accurate next. The first chapter in the book is all about proportion, so that's what I'm trying to focus on. The thing that will help me most though, is more practice.</p> </body>]]></description>
-    <guid>http://obachuka.com/2016/06/29/</guid>
   </item>
 
 </channel>
