@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>Obachuka</title>
+  </head>
+  <body>
+    <header>
+      <h1>Buncha red squares</h1>
+      <aside>by <a href="/">Obachuka</a></aside>
+    </header>
+    <p>For the longest time, I spent a lot of time hemming and hawing and hewing about what kind of entity system to use for my game. I used to use an inheritance hierarchy back in college, but object oriented programming has been falling out, especially with game programming. It wasn't very flexible and wrecked the cache. The two most common entity systems I see today are arrays of structs (entities) that owned other structs (components), or arrays of components, and entities are just indices that map to these components.</p>
+    <p>I eventually realized though, that trying to make a generic solution that worked for anything was dumb. Since I've already made several prototypes back in college, I already knew what my game was about, I just had to program it (again). I had six different enemy entities, one explosion entity, one player entity, and occasionally in different versions of my prototypes, I had one or two miscellaneous entities. But eventually, I realized all my entities had the same data, and only behaved differently. So now I'm just making one type of entity, and stack allocating a giant array for everything. Then based on the position of the array, I call different functions on the entities. It's very easy to do and cache friendly. It's not at all flexible, but since I already have the scope of my game figured out, I don't need the flexibility.</p>
+    <p>And here's a screenshot of my game. It's jut a bunch of red squares for now. But I'm getting there.</p>
+    <img src="http://i.imgur.com/HqCQAkW.png">
+  </body>
+</html>
