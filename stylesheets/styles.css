@@ -4,25 +4,31 @@ body {
   line-height: 1.2;
   font-size: 18px;
   color: #444;
-  padding: 10px
+  padding: 10px;
 }
 
 a:link {
-  color: #27d
+  color: #27d;
 }
 
 a:hover {
-  color: #29e
+  color: #29e;
 }
 
 a:visited {
-  color: #858
+  color: #858;
 }
 
 img {
-  max-width: 650px
+  margin: 40px auto;
+  max-width: 650px;
 }
 
 aside {
   font-style: italic;
+}
+
+video {
+  margin: 40px auto;
+  max-width: 650px;
 }
