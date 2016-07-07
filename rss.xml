@@ -9,6 +9,14 @@
   <language>en</language>
 
   <item>
+    <title>Figured out webm</title>
+    <link>http://obachuka.com/2016/07/06/</link>
+    <description><![CDATA[<video controls><source src="https://zippy.gfycat.com/PeacefulGiganticAngelwingmussel.webm" type="video/webm"></video>
+]]></description>
+    <guid>http://obachuka.com/2016/07/06/</guid>
+  </item>
+
+  <item>
     <title>Buncha red dots</title>
     <link>http://obachuka.com/2016/07/05/</link>
     <description><![CDATA[<p>For the longest time, I spent a lot of time hemming and hawing and hewing about what kind of entity system to use for my game. I used to use an inheritance hierarchy back in college, but object oriented programming has been falling out, especially with game programming. It wasn't very flexible and wrecked the cache. The two most common entity systems I see today are arrays of structs (entities) that owned other structs (components), or arrays of components, and entities are just indices that map to these components.</p> <p>I eventually realized though, that trying to make a generic solution that worked for anything was dumb. Since I've already made several prototypes back in college, I already knew what my game was about, I just had to program it (again). I had six different enemy entities, one explosion entity, one player entity, and occasionally in different versions of my prototypes, I had one or two miscellaneous entities. But eventually, I realized all my entities had the same data, and only behaved differently. So now I'm just making one type of entity, and stack allocating a giant array for everything. Then based on the position of the array, I call different functions on the entities. It's very easy to do and cache friendly. It's not at all flexible, but since I already have the scope of my game figured out, I don't need the flexibility.</p> <p>And here's a screenshot of my game. It's jut a bunch of red squares for now. But I'm getting there.</p> <img src="http://i.imgur.com/HqCQAkW.png">]]></description>
@@ -34,13 +42,6 @@
     <link>http://obachuka.com/2016/07/02/</link>
     <description><![CDATA[<p>I saw Casey Muratori in his <a href="https://handmadehero.org">Handmade Hero</a> series implement dynamic loading with C, and I thought I'd give it a try. It's a really cool idea that I've never seen before, but it looks so simple. Most people seem to opt to use scripting languages, even for smaller projects. <a href="https://github.com/obachuka/zuzu/commit/443ec0dee3d0da3de2c8abf97fcd752d4ead0b50">Commit</a></p> <p>On weekdays I plan on practicing my drawing, while on weekends, I'll do coding. Holidays count as weekends.</p>]]></description>
     <guid>http://obachuka.com/2016/07/02/</guid>
-  </item>
-
-  <item>
-    <title>Self-reflection</title>
-    <link>http://obachuka.com/2016/07/01/</link>
-    <description><![CDATA[<p>When I was looking up reviews of Andrew Loomis's <i>Figure Drawing For All It's Worth</i>, there were a few minor complaints about the book being old-fashioned, especially towards the portrayal of women. One specific complaint was that in a diagram depicting a nude woman's proportions, the woman was wearing high-heels. It's just strange to me that their problem with women wearing high-heels is "old-fashioned."</p> <p>How about it's confusing as all hell?! That's my complaint. Why are they wearing something that alters their height in an educational nude to show proportions? Then Loomis actually makes meausements based of this woman wearing heels. Why, that's so confusing. I was able to remove the heels and figure out the proportions, but I'm not very bright, so it took me a while.</p> <p>Also, human figures are drawn at eight head lengths. Loomis acknowledges that people are of various heights and proportions, but when you're first starting out, it's easier to draw people at the "ideal" height of eight heads. And this height of eight heads is roughly six feet tall.</p> <p>I'm roughly six feet tall. So I thought I'd roughly match the measured human proportions, plus or minus some margin of error due to natural randomness. Turns out I don't match. According to Loomis, men's navels are higher than the waist, and the same height as the elbows. My navel is way down there, below my waist and far below my elbows. It never occurred to me that people's belly button location could vary so much. Now I'm obsessed about finding where other people's navels are.</p> <p>I'd ask my friends, "Yo where your belly buttons at?"</p> <p>"What?"</p> <p>"Take off your shirt, I want to see your belly button."</p> <p>"Oba no."</p> <p>"How far down do your wrists go? Let me see your crotch."</p>]]></description>
-    <guid>http://obachuka.com/2016/07/01/</guid>
   </item>
 
 </channel>
