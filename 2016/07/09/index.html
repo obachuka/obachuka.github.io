@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>Obachuka</title>
+  </head>
+  <body>
+    <header>
+      <h1>Back to the quadtree</h1>
+      <aside>by <a href="/">Obachuka</a></aside>
+    </header>
+    <p>Yesterday I tried to do spatial partitioning with a grid instead of a recursive data structure like a quadtree. I forgot that an entity can be in multiple grid cells, such as when they're crossing over from one to the next. In those cases, I would need to get the bigger cell that encompasses each indvidual cell, like a parent cell of sorts. So a quadtree. Granted, the quadtree I made was stack allocated and didn't dynamically subdivide, so it's not a true quadtree, but it's similar. I redid my grid from yesterday, and in doing so, also fixed the bug from yesterday. I have basic collision working with the player now, but there isn't really anything to show, since nothing happens yet when they collide.</p>
+    <p>Kind of off topic, but I ran into an undefined bug today while writing my quadtree, the ones that take forever to find but ends up being a really simple fix. Stuff like that were reasons why I wanted to try out Rust. Languages I've used for game development went from ActionScript -> Python -> ActionScript -> Java -> C# -> C++ -> Rust -> C. Since I end up interfacing with a lot of C APIs like OpenGL and SDL2, Rust became annoying to use, moreso than its strict compiler. The community has C bindings already written, but I found them cumbersome. I considered using C to wrap the C library calls and do the rest in Rust, but that probably would have been more effort than it's worth. I might try Rust again in the future, but for now I'm sticking to C. I like how simple C is. I can usually solve bugs by just trying to think like a computer, whereas languages like Python make me wonder if I'm using a library wrong or perhaps even an inherent flaw in the language. Trying to understand how other people implemented something is a lot harder than understanding how the computer implements something.</p>
+  </body>
+</html>
