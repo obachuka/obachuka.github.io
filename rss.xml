@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Explosions!</title>
+    <link>http://obachuka.com/2016/07/10/</link>
+    <description><![CDATA[<p>I have explosions in my game now. Next I need to make my dots actual circles instead of squares. Then a game over state, more dots, sound, and high scores. That seems pretty doable within two weeks. I got most of the hard parts out of the way, I know how to do the rest quite easily.</p> <video controls autoplay><source src="https://zippy.gfycat.com/WhichKnobbyAttwatersprairiechicken.webm" type="video/webm"></video> <p>Apparently my videos haven't been showing up on a lot of people's devices. I'll switch to gifs next time, after I figure it out.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/10/</guid>
+  </item>
+
+  <item>
     <title>Back to the quadtree</title>
     <link>http://obachuka.com/2016/07/09/</link>
     <description><![CDATA[<p>Yesterday I tried to do spatial partitioning with a grid instead of a recursive data structure like a quadtree. I forgot that an entity can be in multiple grid cells, such as when they're crossing over from one to the next. In those cases, I would need to get the bigger cell that encompasses each indvidual cell, like a parent cell of sorts. So a quadtree. Granted, the quadtree I made was stack allocated and didn't dynamically subdivide, so it's not a true quadtree, but it's similar. I redid my grid from yesterday, and in doing so, also fixed the bug from yesterday. I have basic collision working with the player now, but there isn't really anything to show, since nothing happens yet when they collide.</p> <p>Kind of off topic, but I ran into an undefined bug today while writing my quadtree, the ones that take forever to find but ends up being a really simple fix. Stuff like that were reasons why I wanted to try out Rust. Languages I've used for game development went from ActionScript -> Python -> ActionScript -> Java -> C# -> C++ -> Rust -> C. Since I end up interfacing with a lot of C APIs like OpenGL and SDL2, Rust became annoying to use, moreso than its strict compiler. The community has C bindings already written, but I found them cumbersome. I considered using C to wrap the C library calls and do the rest in Rust, but that probably would have been more effort than it's worth. I might try Rust again in the future, but for now I'm sticking to C. I like how simple C is. I can usually solve bugs by just trying to think like a computer, whereas languages like Python make me wonder if I'm using a library wrong or perhaps even an inherent flaw in the language. Trying to understand how other people implemented something is a lot harder than understanding how the computer implements something.</p>]]></description> <guid>http://obachuka.com/2016/07/09/</guid>
@@ -34,13 +41,6 @@
     <description><![CDATA[<video controls><source src="https://zippy.gfycat.com/PeacefulGiganticAngelwingmussel.webm" type="video/webm"></video>
 ]]></description>
     <guid>http://obachuka.com/2016/07/06/</guid>
-  </item>
-
-  <item>
-    <title>Buncha red dots</title>
-    <link>http://obachuka.com/2016/07/05/</link>
-    <description><![CDATA[<p>For the longest time, I spent a lot of time hemming and hawing and hewing about what kind of entity system to use for my game. I used to use an inheritance hierarchy back in college, but object oriented programming has been falling out, especially with game programming. It wasn't very flexible and wrecked the cache. The two most common entity systems I see today are arrays of structs (entities) that owned other structs (components), or arrays of components, and entities are just indices that map to these components.</p> <p>I eventually realized though, that trying to make a generic solution that worked for anything was dumb. Since I've already made several prototypes back in college, I already knew what my game was about, I just had to program it (again). I had six different enemy entities, one explosion entity, one player entity, and occasionally in different versions of my prototypes, I had one or two miscellaneous entities. But eventually, I realized all my entities had the same data, and only behaved differently. So now I'm just making one type of entity, and stack allocating a giant array for everything. Then based on the position of the array, I call different functions on the entities. It's very easy to do and cache friendly. It's not at all flexible, but since I already have the scope of my game figured out, I don't need the flexibility.</p> <p>And here's a screenshot of my game. It's jut a bunch of red squares for now. But I'm getting there.</p> <img src="http://i.imgur.com/HqCQAkW.png">]]></description>
-    <guid>http://obachuka.com/2016/07/05/</guid>
   </item>
 
 </channel>
