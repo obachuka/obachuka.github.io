@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Missed my alarm</title>
+    <link>http://obachuka.com/2016/07/12/</link>
+    <description><![CDATA[<p>Technology is unreliable. My phone ran out of batteries, so it failed to wake me up at 6am this morning. Really, humans are unreliable. I should have remembered to turn it back on. So I didn't get anything done in the morning. I tried to make up for it after work, but all I ended up doing was making an "improvement" to my collision detection that didn't even compile (and never will), and made janky slow-mo.</p> <p>Because I'd been waking up at 6am for the past two weeks, I actually did wake up in time. But I just didn't get out of bed because I didn't hear my alarm.  I need to sleep with a clock next to my bed.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/12/</guid>
+  </item>
+
+  <item>
     <title>Practice for real</title>
     <link>http://obachuka.com/2016/07/11/</link>
     <description><![CDATA[<p>Yesterday I was so proud of my explosions. Turns out there was a massive bug, and collisions didn't always happen properly for larger dots. I was still drawing them as squares when they should have been circles, so I assumed that the collision mistakes were just because the square image didn't match up with the real circle hitbox, and that once I switched to circles, it would be correct.</p> <p>Turns out no. My collisions were just wrong, and I didn't notice until I switched to circles (squares are easier to draw). Collisions are fixed now though, but I guess you should always practice with the real thing, otherwise you might not know you're doing it wrong until too late.</p> <img src="http://i.imgur.com/SZlcOks.png"/>
@@ -41,14 +48,6 @@
     <link>http://obachuka.com/2016/07/07/</link>
     <description><![CDATA[<p>I was able to implement replays by writing the memory and inputs to a file, then reading them back in. I'm beginning to appreciate the power of C. Being able to manipulate arbitrary bits of memory made this really easy. I did this in less than an hour. Now I'm able record myself, make a change in the code, and see the effects in real time. Compile times are also fast, and I don't think my code base will ever get big enough for longer compile times.</p> <p>Meanwhile at work, it took me four hours to compile some Python code because of dependency hell. I actually have to build the Python code every time I want to see my changes, because the janky build system does some black magic file copying and linking. The build takes a few seconds, completely removing one of the best things about dynamic languages: no compile time.</p> <p>I like personal projects because I can keep them small. Look at this.</p> <video autoplay loop><source src="https://zippy.gfycat.com/MeanGrandEnglishpointer.webm" type="video/webm"></video> <p>Looks like magic.</p>]]></description>
     <guid>http://obachuka.com/2016/07/07/</guid>
-  </item>
-
-  <item>
-    <title>Figured out webm</title>
-    <link>http://obachuka.com/2016/07/06/</link>
-    <description><![CDATA[<video controls><source src="https://zippy.gfycat.com/PeacefulGiganticAngelwingmussel.webm" type="video/webm"></video>
-]]></description>
-    <guid>http://obachuka.com/2016/07/06/</guid>
   </item>
 
 </channel>
