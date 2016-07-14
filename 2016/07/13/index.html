@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>Obachuka</title>
+  </head>
+  <body>
+    <header>
+      <h1>Small time step gif</h1>
+      <aside>by <a href="/">Obachuka</a></aside>
+    </header>
+    <p>There's slow motion in my game, during which objects move, uh, slowly. But because the smallest unit anything can move is a pixel, the movement looks jerky. See figure A.</p>
+    <img src="http://i.imgur.com/8Lwq24I.gif">
+    <p>One way to get around this is with anti-aliasing. To denote half a black pixel, that pixel would be gray. Unfortunately, I won't be fixing this. I'm using SDL2 for my game, even for drawing, and SDL2 doesn't allow you to modify textures. To do something like this, I'd have to make direct OpenGL calls, which I won't have time to do if I want to finish this game by the end of the month. I still need more dots, game over screen, sound, and high score. Once I get that done, I can maybe work on smoothing out slow movements, but honestly there's probably better stuff for me to work on.</p>
+  </body>
+</html>

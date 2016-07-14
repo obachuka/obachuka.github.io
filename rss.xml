@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Small time step gif</title>
+    <link>http://obachuka.com/2016/07/13/</link>
+    <description><![CDATA[<p>There's slow motion in my game, during which objects move, uh, slowly. But because the smallest unit anything can move is a pixel, the movement looks jerky. See figure A.</p> <img src="http://i.imgur.com/8Lwq24I.gif"> <p>One way to get around this is with anti-aliasing. To denote half a black pixel, that pixel would be gray. Unfortunately, I won't be fixing this. I'm using SDL2 for my game, even for drawing, and SDL2 doesn't allow you to modify textures. To do something like this, I'd have to make direct OpenGL calls, which I won't have time to do if I want to finish this game by the end of the month. I still need more dots, game over screen, sound, and high score. Once I get that done, I can maybe work on smoothing out slow movements, but honestly there's probably better stuff for me to work on.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/13/</guid>
+  </item>
+
+  <item>
     <title>Missed my alarm</title>
     <link>http://obachuka.com/2016/07/12/</link>
     <description><![CDATA[<p>Technology is unreliable. My phone ran out of batteries, so it failed to wake me up at 6am this morning. Really, humans are unreliable. I should have remembered to turn it back on. So I didn't get anything done in the morning. I tried to make up for it after work, but all I ended up doing was making an "improvement" to my collision detection that didn't even compile (and never will), and made janky slow-mo.</p> <p>Because I'd been waking up at 6am for the past two weeks, I actually did wake up in time. But I just didn't get out of bed because I didn't hear my alarm.  I need to sleep with a clock next to my bed.</p>]]></description>
@@ -41,13 +48,6 @@
     <link>http://obachuka.com/2016/07/08/</link>
     <description><![CDATA[<p>I normally implement a quadtree for spatial partitioning, and did so for my last implementation of this game. But my quadtree ended up being evenly divided all the time, since the location of my game entities were roughly evenly distributed. So this time, I tried to go for a simple grid. Below, I've divided the space into four cells, one for each corner, and highlighted in purple all the squares in the bottom right corner.</p> <img src="http://i.imgur.com/CJm7rqc.png"/> <p>As you can see, that is not at all the bottom right corner. I'll have to debug this tomorrow.</p>]]></description>
     <guid>http://obachuka.com/2016/07/08/</guid>
-  </item>
-
-  <item>
-    <title>Magic replays</title>
-    <link>http://obachuka.com/2016/07/07/</link>
-    <description><![CDATA[<p>I was able to implement replays by writing the memory and inputs to a file, then reading them back in. I'm beginning to appreciate the power of C. Being able to manipulate arbitrary bits of memory made this really easy. I did this in less than an hour. Now I'm able record myself, make a change in the code, and see the effects in real time. Compile times are also fast, and I don't think my code base will ever get big enough for longer compile times.</p> <p>Meanwhile at work, it took me four hours to compile some Python code because of dependency hell. I actually have to build the Python code every time I want to see my changes, because the janky build system does some black magic file copying and linking. The build takes a few seconds, completely removing one of the best things about dynamic languages: no compile time.</p> <p>I like personal projects because I can keep them small. Look at this.</p> <video autoplay loop><source src="https://zippy.gfycat.com/MeanGrandEnglishpointer.webm" type="video/webm"></video> <p>Looks like magic.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/07/</guid>
   </item>
 
 </channel>
