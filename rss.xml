@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Red and blue</title>
+    <link>http://obachuka.com/2016/07/14/</link>
+    <description><![CDATA[<img src="http://imgur.com/kN11Vrt">]]></description>
+    <guid>http://obachuka.com/2016/07/14/</guid>
+  </item>
+
+  <item>
     <title>Small time step gif</title>
     <link>http://obachuka.com/2016/07/13/</link>
     <description><![CDATA[<p>There's slow motion in my game, during which objects move, uh, slowly. But because the smallest unit anything can move is a pixel, the movement looks jerky. See figure A.</p> <img src="http://i.imgur.com/8Lwq24I.gif"> <p>One way to get around this is with anti-aliasing. To denote half a black pixel, that pixel would be gray. Unfortunately, I won't be fixing this. I'm using SDL2 for my game, even for drawing, and SDL2 doesn't allow you to modify textures. To do something like this, I'd have to make direct OpenGL calls, which I won't have time to do if I want to finish this game by the end of the month. I still need more dots, game over screen, sound, and high score. Once I get that done, I can maybe work on smoothing out slow movements, but honestly there's probably better stuff for me to work on.</p>]]></description>
@@ -41,13 +48,6 @@
     <title>Back to the quadtree</title>
     <link>http://obachuka.com/2016/07/09/</link>
     <description><![CDATA[<p>Yesterday I tried to do spatial partitioning with a grid instead of a recursive data structure like a quadtree. I forgot that an entity can be in multiple grid cells, such as when they're crossing over from one to the next. In those cases, I would need to get the bigger cell that encompasses each indvidual cell, like a parent cell of sorts. So a quadtree. Granted, the quadtree I made was stack allocated and didn't dynamically subdivide, so it's not a true quadtree, but it's similar. I redid my grid from yesterday, and in doing so, also fixed the bug from yesterday. I have basic collision working with the player now, but there isn't really anything to show, since nothing happens yet when they collide.</p> <p>Kind of off topic, but I ran into an undefined bug today while writing my quadtree, the ones that take forever to find but ends up being a really simple fix. Stuff like that were reasons why I wanted to try out Rust. Languages I've used for game development went from ActionScript -> Python -> ActionScript -> Java -> C# -> C++ -> Rust -> C. Since I end up interfacing with a lot of C APIs like OpenGL and SDL2, Rust became annoying to use, moreso than its strict compiler. The community has C bindings already written, but I found them cumbersome. I considered using C to wrap the C library calls and do the rest in Rust, but that probably would have been more effort than it's worth. I might try Rust again in the future, but for now I'm sticking to C. I like how simple C is. I can usually solve bugs by just trying to think like a computer, whereas languages like Python make me wonder if I'm using a library wrong or perhaps even an inherent flaw in the language. Trying to understand how other people implemented something is a lot harder than understanding how the computer implements something.</p>]]></description> <guid>http://obachuka.com/2016/07/09/</guid>
-  </item>
-
-  <item>
-    <title>Broken grid</title>
-    <link>http://obachuka.com/2016/07/08/</link>
-    <description><![CDATA[<p>I normally implement a quadtree for spatial partitioning, and did so for my last implementation of this game. But my quadtree ended up being evenly divided all the time, since the location of my game entities were roughly evenly distributed. So this time, I tried to go for a simple grid. Below, I've divided the space into four cells, one for each corner, and highlighted in purple all the squares in the bottom right corner.</p> <img src="http://i.imgur.com/CJm7rqc.png"/> <p>As you can see, that is not at all the bottom right corner. I'll have to debug this tomorrow.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/08/</guid>
   </item>
 
 </channel>
