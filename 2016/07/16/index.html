@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>Obachuka</title>
+  </head>
+  <body>
+    <header>
+      <h1>Core gameplay complete</h1>
+      <aside>by <a href="/">Obachuka</a></aside>
+    </header>
+    <p>My basic gameplay is complete. The rest is adding more features and polish.</p>
+    <img src="http://i.imgur.com/FD4fTp9.gif">
+    <p>While recording this, I noticed I had a bug with my replay/text. When a replay starts, the score disappears, and reappears when my score is updated. My entire game is stack allocated, so to save replays, I output all of the memory into a file, then read it back in again later. This wouldn't work for something dynamically allocated, as the memory will be in a different location on each replay. And guess what's the only thing that's dynamically allocated? That's right, the same font rendering I complained about yesterday. So when the replay starts, the memory for the score is invalid. Then when the score is updated, an entirely new texture is generated. I don't intend to fix this bug though, because once I switch to using images, I won't have this problem, since my images won't be dynamically updated in the middle of the game.</p>
+  </body>
+</html>
