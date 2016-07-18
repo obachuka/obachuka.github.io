@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Yellow and green</title>
+    <link>http://obachuka.com/2016/07/17/</link>
+    <description><![CDATA[<img src="http://i.imgur.com/Wbo3NCM.gif"> <p>Yellow and green dots! I'll have purple and orange next. I was watching EVO today, and had it playing in the background. And yet I was surprisingly productive. I should have some background noise playing more often, preferably some sport I'm not interested in.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/17/</guid>
+  </item>
+
+  <item>
     <title>Core gameplay complete</title>
     <link>http://obachuka.com/2016/07/16/</link>
     <description><![CDATA[<p>My basic gameplay is complete. The rest is adding more features and polish.</p> <img src="http://i.imgur.com/FD4fTp9.gif"> <p>While recording this, I noticed I had a bug with my replay/text. When a replay starts, the score disappears, and reappears when my score is updated. My entire game is stack allocated, so to save replays, I output all of the memory into a file, then read it back in again later. This wouldn't work for something dynamically allocated, as the memory will be in a different location on each replay. And guess what's the only thing that's dynamically allocated? That's right, the same font rendering I complained about yesterday. So when the replay starts, the memory for the score is invalid. Then when the score is updated, an entirely new texture is generated. I don't intend to fix this bug though, because once I switch to using images, I won't have this problem, since my images won't be dynamically updated in the middle of the game.</p>]]></description>
@@ -49,13 +56,6 @@
     <description><![CDATA[<p>Yesterday I was so proud of my explosions. Turns out there was a massive bug, and collisions didn't always happen properly for larger dots. I was still drawing them as squares when they should have been circles, so I assumed that the collision mistakes were just because the square image didn't match up with the real circle hitbox, and that once I switched to circles, it would be correct.</p> <p>Turns out no. My collisions were just wrong, and I didn't notice until I switched to circles (squares are easier to draw). Collisions are fixed now though, but I guess you should always practice with the real thing, otherwise you might not know you're doing it wrong until too late.</p> <img src="http://i.imgur.com/SZlcOks.png"/>
 ]]></description>
     <guid>http://obachuka.com/2016/07/11/</guid>
-  </item>
-
-  <item>
-    <title>Explosions!</title>
-    <link>http://obachuka.com/2016/07/10/</link>
-    <description><![CDATA[<p>I have explosions in my game now. Next I need to make my dots actual circles instead of squares. Then a game over state, more dots, sound, and high scores. That seems pretty doable within two weeks. I got most of the hard parts out of the way, I know how to do the rest quite easily.</p> <video controls autoplay><source src="https://zippy.gfycat.com/WhichKnobbyAttwatersprairiechicken.webm" type="video/webm"></video> <p>Apparently my videos haven't been showing up on a lot of people's devices. I'll switch to gifs next time, after I figure it out.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/10/</guid>
   </item>
 
 </channel>
