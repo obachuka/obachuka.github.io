@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Explosion colors!</title>
+    <link>http://obachuka.com/2016/07/19/</link>
+    <description><![CDATA[<img src="http://i.imgur.com/sOwHwj4.gif"> <p>This was remarkably easy to implement, around ten lines of code. As mentioned, I story every object in the game as the same struct, with different behaviours determined by the position in an array. I origanally thought this would be extremely inflexible, but adding new features to the game so far has been incredibly easy.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/19/</guid>
+  </item>
+
+  <item>
     <title>Yellow and green</title>
     <link>http://obachuka.com/2016/07/17/</link>
     <description><![CDATA[<img src="http://i.imgur.com/Wbo3NCM.gif"> <p>Yellow and green dots! I'll have purple and orange next. I was watching EVO today, and had it playing in the background. And yet I was surprisingly productive. I should have some background noise playing more often, preferably some sport I'm not interested in.</p>]]></description>
@@ -48,14 +55,6 @@
     <link>http://obachuka.com/2016/07/12/</link>
     <description><![CDATA[<p>Technology is unreliable. My phone ran out of batteries, so it failed to wake me up at 6am this morning. Really, humans are unreliable. I should have remembered to turn it back on. So I didn't get anything done in the morning. I tried to make up for it after work, but all I ended up doing was making an "improvement" to my collision detection that didn't even compile (and never will), and made janky slow-mo.</p> <p>Because I'd been waking up at 6am for the past two weeks, I actually did wake up in time. But I just didn't get out of bed because I didn't hear my alarm.  I need to sleep with a clock next to my bed.</p>]]></description>
     <guid>http://obachuka.com/2016/07/12/</guid>
-  </item>
-
-  <item>
-    <title>Practice for real</title>
-    <link>http://obachuka.com/2016/07/11/</link>
-    <description><![CDATA[<p>Yesterday I was so proud of my explosions. Turns out there was a massive bug, and collisions didn't always happen properly for larger dots. I was still drawing them as squares when they should have been circles, so I assumed that the collision mistakes were just because the square image didn't match up with the real circle hitbox, and that once I switched to circles, it would be correct.</p> <p>Turns out no. My collisions were just wrong, and I didn't notice until I switched to circles (squares are easier to draw). Collisions are fixed now though, but I guess you should always practice with the real thing, otherwise you might not know you're doing it wrong until too late.</p> <img src="http://i.imgur.com/SZlcOks.png"/>
-]]></description>
-    <guid>http://obachuka.com/2016/07/11/</guid>
   </item>
 
 </channel>
