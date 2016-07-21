@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>Obachuka</title>
+  </head>
+  <body>
+    <header>
+      <h1>Game over</h1>
+      <aside>by <a href="/">Obachuka</a></aside>
+    </header>
+    <img src="http://i.imgur.com/DoftsPa.gif">
+    <p>Previously I just laziy outputted to the debug log when the player "died." Now I have a real game over state. I need to add a play button and other options.</p>
+    <p>Doing this was also easy. I compile my code in two parts, the game code and a glorified main loop that calls the game code. In the game code, I export an update function that the main loop calls every frame. To switch "modes," I just switch the function the main loop uses to update the game.</p>
+    <p>I thought swapping the update function would break my replay debugging ability, but as long as I record function pointers, it still works because the function is still in the same location. Even if I dynamically load a new function from a dynamic library, the function will stay in the same place as long as I don't change the number of lines in the update function. Which is the same behavior before I made this change anyways. I'm pretty sure I can depend on that behavior, but I should look it up just in case.</p>
+    <p>Something that was actually broken (and broken the entire time) was that my random number generation isn't reset upon every replay. I wanted it to be deterministic, but different replays could have different results because of this. I think if I just reseed the rng every time I start a replay, it will fix this.</p>
+  </body>
+</html>
