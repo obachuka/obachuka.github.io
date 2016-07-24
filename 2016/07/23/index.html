@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/stylesheets/styles.css">
+    <title>Obachuka</title>
+  </head>
+  <body>
+    <header>
+      <h1>SDL blending modes</h1>
+      <aside>by <a href="/">Obachuka</a></aside>
+    </header>
+    <p>So SDL only offers four blending modes: no blending, alpha blending, additive blending, and multiplicative blending. They don't have subtraction or division. Take a look at their alpha blending formula on their <a href="https://wiki.libsdl.org/SDL_BlendMode">documentation</a>. In case their documentation changes in the future, I'll spell it out here.</p>
+    <blockquote>dstRGB = (srcRGB * srcA) + (dstRGB * (1-srcA))<br>dstA = srcA + (dstA * (1-srcA))</blockquote>
+    <p>Note that this blending is not transitive, and the order you render transparent objects matter. I've been using unordered arrays in my code for O(1) deletes. This causes my objects to render in a different order when something is removed from the array.</p>
+    <img src="http://i.imgur.com/qAoYtv6.gif">
+    <p>You can see the rendering errors happen most visibly in the upper left. To get around this, I use additive blending for my explosions. Any color added to white (the background color) is still white, so before rendering the color of every explosion, I render a black circle. The results look quite interesting. This is the only solution I can think of without calling OpenGL, which I don't think I can do if I want to finish this game by next week.</p>
+    <img src="http://i.imgur.com/Ua76c12.gif">
+    <p>I need to clean up the textures a bit, but I think this looks better.</p>
+  </body>
+</html>
