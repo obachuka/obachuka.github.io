@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Invincible spikes</title>
+    <link>http://obachuka.com/2016/07/26/</link>
+    <description><![CDATA[<p>I introduced invincible spikes today. Spikes means a dot is invincible, while a gray outline means that a dot <i>can</i> turn invincible.</p> <img src="http://i.imgur.com/bjTq8YL.gif"/> <p>The player dot uses the same spikes and outline to denote when the player is attacking and when the player is ready to attack.</p> <p>I made invincible dots to introduce a different type of difficulty in later levels. That's right, my game will have levels. Levels is my last "necessary" feature before I am willing to say my game is in a finished state.</p> <h3>Here are my remaining required tasks:</h3> <ul> <li>Levels</li> <li>Compile to Windows 10</li> </ul> <h3>Here are my remaining optional tasks:</h3> <ul> <li>Sound</li> <li>Purple dot</li> <li>Saving high scores</li> <li>Power up pick up</li> <li>Better font rendering</li> <li>Hard mode</li> <li>Compile to OS X</li> </ul> <h3>Here are tasks I've given up on finishing:</h3> <ul> <li>Use OpenGL directly</li> <li>Animation</li> <li>Music</li> </ul> <p>The reason I put "levels" above something like "sound" is because my game is honestly quite boring without it. It might have been the primary reason my game was fun. I'll go into more detail when I actually make the levels.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/26/</guid>
+  </item>
+
+  <item>
     <title>Home stretch</title>
     <link>http://obachuka.com/2016/07/25/</link>
     <description><![CDATA[<p>I didn't work on my game today, but I'll still consider it a success. I reset my sleep schedule, started exercising again, and now I'm going to bed before 10PM.</p> <p>I still feel like there's so much to do, but this is my last week. Whatever I have at the end of this week, I'm publishing it. Just a bit more to do. I've published my code <a href="https://github.com/obachuka/FatDot">on GitHub</a> if you want to see the dumb stuff I did to get it all working.</p>]]></description>
@@ -56,13 +63,6 @@
     <link>http://obachuka.com/2016/07/17/</link>
     <description><![CDATA[<img src="http://i.imgur.com/Wbo3NCM.gif"> <p>Yellow and green dots! I'll have purple and orange next. I was watching EVO today, and had it playing in the background. And yet I was surprisingly productive. I should have some background noise playing more often, preferably some sport I'm not interested in.</p>]]></description>
     <guid>http://obachuka.com/2016/07/17/</guid>
-  </item>
-
-  <item>
-    <title>Core gameplay complete</title>
-    <link>http://obachuka.com/2016/07/16/</link>
-    <description><![CDATA[<p>My basic gameplay is complete. The rest is adding more features and polish.</p> <img src="http://i.imgur.com/FD4fTp9.gif"> <p>While recording this, I noticed I had a bug with my replay/text. When a replay starts, the score disappears, and reappears when my score is updated. My entire game is stack allocated, so to save replays, I output all of the memory into a file, then read it back in again later. This wouldn't work for something dynamically allocated, as the memory will be in a different location on each replay. And guess what's the only thing that's dynamically allocated? That's right, the same font rendering I complained about yesterday. So when the replay starts, the memory for the score is invalid. Then when the score is updated, an entirely new texture is generated. I don't intend to fix this bug though, because once I switch to using images, I won't have this problem, since my images won't be dynamically updated in the middle of the game.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/16/</guid>
   </item>
 
 </channel>
