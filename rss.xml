@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Reberu</title>
+    <link>http://obachuka.com/2016/07/27/</link>
+    <description><![CDATA[<p>Here's a gif of one of the higher levels. Random sizes and spiky dots.</p> <img src="http://i.imgur.com/JOtM65L.gif"> <p>There's a glitch in this image. A red dot trespasses through the explosion fine without any repercussion. It seems to happen only with large explosions, so it's probably a glitch with my quadtree.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/27/</guid>
+  </item>
+
+  <item>
     <title>Invincible spikes</title>
     <link>http://obachuka.com/2016/07/26/</link>
     <description><![CDATA[<p>I introduced invincible spikes today. Spikes means a dot is invincible, while a gray outline means that a dot <i>can</i> turn invincible.</p> <img src="http://i.imgur.com/bjTq8YL.gif"/> <p>The player dot uses the same spikes and outline to denote when the player is attacking and when the player is ready to attack.</p> <p>I made invincible dots to introduce a different type of difficulty in later levels. That's right, my game will have levels. Levels is my last "necessary" feature before I am willing to say my game is in a finished state.</p> <h3>Here are my remaining required tasks:</h3> <ul> <li>Levels</li> <li>Compile to Windows 10</li> </ul> <h3>Here are my remaining optional tasks:</h3> <ul> <li>Sound</li> <li>Purple dot</li> <li>Saving high scores</li> <li>Power up pick up</li> <li>Better font rendering</li> <li>Hard mode</li> <li>Compile to OS X</li> </ul> <h3>Here are tasks I've given up on finishing:</h3> <ul> <li>Use OpenGL directly</li> <li>Animation</li> <li>Music</li> </ul> <p>The reason I put "levels" above something like "sound" is because my game is honestly quite boring without it. It might have been the primary reason my game was fun. I'll go into more detail when I actually make the levels.</p>]]></description>
@@ -56,13 +63,6 @@
     <link>http://obachuka.com/2016/07/19/</link>
     <description><![CDATA[<img src="http://i.imgur.com/sOwHwj4.gif"> <p>This was remarkably easy to implement, around ten lines of code. As mentioned, I story every object in the game as the same struct, with different behaviours determined by the position in an array. I origanally thought this would be extremely inflexible, but adding new features to the game so far has been incredibly easy.</p>]]></description>
     <guid>http://obachuka.com/2016/07/19/</guid>
-  </item>
-
-  <item>
-    <title>Yellow and green</title>
-    <link>http://obachuka.com/2016/07/17/</link>
-    <description><![CDATA[<img src="http://i.imgur.com/Wbo3NCM.gif"> <p>Yellow and green dots! I'll have purple and orange next. I was watching EVO today, and had it playing in the background. And yet I was surprisingly productive. I should have some background noise playing more often, preferably some sport I'm not interested in.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/17/</guid>
   </item>
 
 </channel>
