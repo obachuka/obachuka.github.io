@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>First alpha</title>
+    <link>http://obachuka.com/2016/07/28/</link>
+    <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.0/fat_dot.html">Here's my first version of the game!</a> It's only been tested on Chrome and Firefox. Any other browser is on their own. Input doesn't work on mobile phones either.</p> <p>There's still a bunch of bugs in this release, and I couldn't get text rendering working either, so I'm printing it to the console output. As I've said before, I want to replace my font code anyways.</p> <p>I want to give a shoutout to <a href="http://lyceum-allotments.github.io/">John Sharp's blog</a>. Emscripten has a lot of documentation, but for some reason, I could not find the basic usage instructions. And this guy has it all neatly compiled together on his blog.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/28/</guid>
+  </item>
+
+  <item>
     <title>Reberu</title>
     <link>http://obachuka.com/2016/07/27/</link>
     <description><![CDATA[<p>Here's a gif of one of the higher levels. Random sizes and spiky dots.</p> <img src="http://i.imgur.com/JOtM65L.gif"> <p>There's a glitch in this image. A red dot trespasses through the explosion fine without any repercussion. It seems to happen only with large explosions, so it's probably a glitch with my quadtree.</p>]]></description>
@@ -56,13 +63,6 @@
     <link>http://obachuka.com/2016/07/20/</link>
     <description><![CDATA[<img src="http://i.imgur.com/DoftsPa.gif"> <p>Previously I just laziy outputted to the debug log when the player "died." Now I have a real game over state. I need to add a play button and other options.</p> <p>Doing this was also easy. I compile my code in two parts, the game code and a glorified main loop that calls the game code. In the game code, I export an update function that the main loop calls every frame. To switch "modes," I just switch the function the main loop uses to update the game.</p> <p>I thought swapping the update function would break my replay debugging ability, but as long as I record function pointers, it still works because the function is still in the same location. Even if I dynamically load a new function from a dynamic library, the function will stay in the same place as long as I don't change the number of lines in the update function. Which is the same behavior before I made this change anyways. I'm pretty sure I can depend on that behavior, but I should look it up just in case.</p> <p>Something that was actually broken (and broken the entire time) was that my random number generation isn't reset upon every replay. I wanted it to be deterministic, but different replays could have different results because of this. I think if I just reseed the rng every time I start a replay, it will fix this.</p>]]></description>
     <guid>http://obachuka.com/2016/07/20/</guid>
-  </item>
-
-  <item>
-    <title>Explosion colors!</title>
-    <link>http://obachuka.com/2016/07/19/</link>
-    <description><![CDATA[<img src="http://i.imgur.com/sOwHwj4.gif"> <p>This was remarkably easy to implement, around ten lines of code. As mentioned, I story every object in the game as the same struct, with different behaviours determined by the position in an array. I origanally thought this would be extremely inflexible, but adding new features to the game so far has been incredibly easy.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/19/</guid>
   </item>
 
 </channel>
