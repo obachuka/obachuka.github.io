@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Improved fonts</title>
+    <link>http://obachuka.com/2016/07/29/</link>
+    <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.1/fat_dot.html">Check out my better font rendering!</a> So it turns out I was just being stupid about my fonts. All my complaints were all easily addressed, I was just too lazy to look, since I wanted to get it done quick.</p>]]></description>
+    <guid>http://obachuka.com/2016/07/29/</guid>
+  </item>
+
+  <item>
     <title>First alpha</title>
     <link>http://obachuka.com/2016/07/28/</link>
     <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.0/fat_dot.html">Here's my first version of the game!</a> It's only been tested on Chrome and Firefox. Any other browser is on their own. Input doesn't work on mobile phones either.</p> <p>There's still a bunch of bugs in this release, and I couldn't get text rendering working either, so I'm printing it to the console output. As I've said before, I want to replace my font code anyways.</p> <p>I want to give a shoutout to <a href="http://lyceum-allotments.github.io/">John Sharp's blog</a>. Emscripten has a lot of documentation, but for some reason, I could not find the basic usage instructions. And this guy has it all neatly compiled together on his blog.</p>]]></description>
@@ -56,13 +63,6 @@
     <description><![CDATA[<p>I didn't get much done in the morning, then in the evening, I went to the movies with my friedns. I still managed to write a few lines of code though, so I'm still counting that as a success. In the game over screen, I'm going to leave one dot behind, and use that as the start button. I want it so that players can't start the game without knowing how to play. An invisible tutorial of sorts. I'll talk more about it tommorrow, I'm tired today.</p>
 ]]></description>
     <guid>http://obachuka.com/2016/07/21/</guid>
-  </item>
-
-  <item>
-    <title>Game over</title>
-    <link>http://obachuka.com/2016/07/20/</link>
-    <description><![CDATA[<img src="http://i.imgur.com/DoftsPa.gif"> <p>Previously I just laziy outputted to the debug log when the player "died." Now I have a real game over state. I need to add a play button and other options.</p> <p>Doing this was also easy. I compile my code in two parts, the game code and a glorified main loop that calls the game code. In the game code, I export an update function that the main loop calls every frame. To switch "modes," I just switch the function the main loop uses to update the game.</p> <p>I thought swapping the update function would break my replay debugging ability, but as long as I record function pointers, it still works because the function is still in the same location. Even if I dynamically load a new function from a dynamic library, the function will stay in the same place as long as I don't change the number of lines in the update function. Which is the same behavior before I made this change anyways. I'm pretty sure I can depend on that behavior, but I should look it up just in case.</p> <p>Something that was actually broken (and broken the entire time) was that my random number generation isn't reset upon every replay. I wanted it to be deterministic, but different replays could have different results because of this. I think if I just reseed the rng every time I start a replay, it will fix this.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/20/</guid>
   </item>
 
 </channel>
