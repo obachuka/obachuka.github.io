@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Beta release</title>
+    <link>http://obachuka.com/2016/07/31/</link>
+    <description><![CDATA[<p>I didn't make a post yesterday, but I won't count that as missing a day because I actually did a lot of work yesterday. As of today, my game is gameplay complete. It's still missing sound, and I want to fix a few UI problems and other bugs. But I consider those minor changes. There won't be any dramatic changes in the game from here. <a href="http://obachuka.com/FatDot/0.2.0/fat_dot.html">Check it out here</a>.</p> ]]></description>
+    <guid>http://obachuka.com/2016/07/31/</guid>
+  </item>
+
+  <item>
     <title>Improved fonts</title>
     <link>http://obachuka.com/2016/07/29/</link>
     <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.1/fat_dot.html">Check out my better font rendering!</a> So it turns out I was just being stupid about my fonts. All my complaints were all easily addressed, I was just too lazy to look, since I wanted to get it done quick.</p>]]></description>
@@ -55,14 +62,6 @@
     <link>http://obachuka.com/2016/07/22/</link>
     <description><![CDATA[<p>I've made this game multiple times now, as it's my "hello world" for video game technology. The rules are simple and everything is a circle. In every iteration of my game, I always had a dot that followed the player around, and this dot had always had a blindspot. If the dot got within a certain radius of the player, it slowed down. Having the dot always track the player got tiring, so I included the blindspot to give the player some breathing space. Unlike the other dots, this dot was actually easier to avoid if the player stayed in the same spot. My friends playtested this game, but very few of them ever realized that.</p> <img src="http://i.imgur.com/ZoyVDw3.gif"> <p>This time though, the radius of the blindspot fluctuates. If the player moves fast and is constantly outside the dots' blindspots, these dots eventually begin overlapping each other. With the changing radius, even though they still clump together, they won't overlap completely now. Plus, this keeps the breathing space the player gets from being too rigid.</p> <img src="http://i.imgur.com/eHUi7Ch.png">]]></description>
     <guid>http://obachuka.com/2016/07/22/</guid>
-  </item>
-
-  <item>
-    <title>It counts</title>
-    <link>http://obachuka.com/2016/07/21/</link>
-    <description><![CDATA[<p>I didn't get much done in the morning, then in the evening, I went to the movies with my friedns. I still managed to write a few lines of code though, so I'm still counting that as a success. In the game over screen, I'm going to leave one dot behind, and use that as the start button. I want it so that players can't start the game without knowing how to play. An invisible tutorial of sorts. I'll talk more about it tommorrow, I'm tired today.</p>
-]]></description>
-    <guid>http://obachuka.com/2016/07/21/</guid>
   </item>
 
 </channel>
