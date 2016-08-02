@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>UI improvements</title>
+    <link>http://obachuka.com/2016/08/01/</link>
+    <description><![CDATA[<p>I made some text updates, so hopefully it's more clear how to play the game. I said I wasn't going to add any more feautures, but I got so much done today, that I figured I could go ahead and add sound. It took me six hours, and sound still doesn't work. It's infuriating. I hate sound. Anyways, play the newest version <a href="http://obachuka.com/FatDot/0.2.1/fat_dot.html">here</a>.</p> ]]></description>
+    <guid>http://obachuka.com/2016/08/01/</guid>
+  </item>
+
+  <item>
     <title>Beta release</title>
     <link>http://obachuka.com/2016/07/31/</link>
     <description><![CDATA[<p>I didn't make a post yesterday, but I won't count that as missing a day because I actually did a lot of work yesterday. As of today, my game is gameplay complete. It's still missing sound, and I want to fix a few UI problems and other bugs. But I consider those minor changes. There won't be any dramatic changes in the game from here. <a href="http://obachuka.com/FatDot/0.2.0/fat_dot.html">Check it out here</a>.</p> ]]></description>
@@ -55,13 +62,6 @@
     <link>http://obachuka.com/2016/07/23/</link>
     <description><![CDATA[<p>So SDL only offers four blending modes: no blending, alpha blending, additive blending, and multiplicative blending. They don't have subtraction or division. Take a look at their alpha blending formula on their <a href="https://wiki.libsdl.org/SDL_BlendMode">documentation</a>. In case their documentation changes in the future, I'll spell it out here.</p> <blockquote>dstRGB = (srcRGB * srcA) + (dstRGB * (1-srcA))<br>dstA = srcA + (dstA * (1-srcA))</blockquote> <p>Note that this blending is not transitive, and the order you render transparent objects matter. I've been using unordered arrays in my code for O(1) deletes. This causes my objects to render in a different order when something is removed from the array.</p> <img src="http://i.imgur.com/qAoYtv6.gif"> <p>You can see the rendering errors happen most visibly in the upper left. To get around this, I use additive blending for my explosions. Any color added to white (the background color) is still white, so before rendering the color of every explosion, I render a black circle. The results look quite interesting. This is the only solution I can think of without calling OpenGL, which I don't think I can do if I want to finish this game by next week.</p> <img src="http://i.imgur.com/Ua76c12.gif"> <p>I need to clean up the textures a bit, but I think this looks better.</p>]]></description>
     <guid>http://obachuka.com/2016/07/23/</guid>
-  </item>
-
-  <item>
-    <title>Blindspot</title>
-    <link>http://obachuka.com/2016/07/22/</link>
-    <description><![CDATA[<p>I've made this game multiple times now, as it's my "hello world" for video game technology. The rules are simple and everything is a circle. In every iteration of my game, I always had a dot that followed the player around, and this dot had always had a blindspot. If the dot got within a certain radius of the player, it slowed down. Having the dot always track the player got tiring, so I included the blindspot to give the player some breathing space. Unlike the other dots, this dot was actually easier to avoid if the player stayed in the same spot. My friends playtested this game, but very few of them ever realized that.</p> <img src="http://i.imgur.com/ZoyVDw3.gif"> <p>This time though, the radius of the blindspot fluctuates. If the player moves fast and is constantly outside the dots' blindspots, these dots eventually begin overlapping each other. With the changing radius, even though they still clump together, they won't overlap completely now. Plus, this keeps the breathing space the player gets from being too rigid.</p> <img src="http://i.imgur.com/eHUi7Ch.png">]]></description>
-    <guid>http://obachuka.com/2016/07/22/</guid>
   </item>
 
 </channel>
