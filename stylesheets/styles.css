@@ -34,7 +34,3 @@ video {
   max-width: 650px;
 }
 
-canvas.emscripten {
-  margin: 40px auto;
-  display: block
-}
