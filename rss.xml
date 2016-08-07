@@ -9,8 +9,15 @@
   <language>en</language>
 
   <item>
+    <title>Hard mode</title>
+    <link>http://obachuka.com/2016/08/06/</link>
+    <description><![CDATA[<p>My last update was garbage. I broke high scores and collision detection. I fixed the high scores, but I think the collision is still somewhat wrong. I think the best way to fix it is to just redo parts of my code. But I won't do that. I will take a look at how other people made their games though.</p> <p>I also included a hard mode. I think the only thing missing now is sound.</p> <a href="http://obachuka.com/FatDot/0.3.0/fat_dot.html">Newest version here</a>.</p>]]></description>
+    <guid>http://obachuka.com/2016/08/06/</guid>
+  </item>
+
+  <item>
     <title>Minor improvements</title>
-    <link>http://obachuka.com/2016/08/02/</link>
+    <link>http://obachuka.com/2016/08/04/</link>
     <description><![CDATA[<p>I've been making minor imporvements to my game, such as an indicator to show when you can click again. I know I said I wanted to make a game a month, and that I'd stop working on this game after July. But I'm kind of tired, and after the feedback I'm recieving for my game, I want to improve it. Doing a game a month is too much for me. This month, I'm going to make minor improvements, practice some art, and research how other people made their game engines. The way I handled my object pools was done rather poorly, so I'd like to improve upon that.<a href="http://obachuka.com/FatDot/0.2.2/fat_dot.html"> Newest version here</a>.</p>]]></description>
     <guid>http://obachuka.com/2016/08/02/</guid>
   </item>
@@ -34,34 +41,6 @@
     <link>http://obachuka.com/2016/07/29/</link>
     <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.1/fat_dot.html">Check out my better font rendering!</a> So it turns out I was just being stupid about my fonts. All my complaints were all easily addressed, I was just too lazy to look, since I wanted to get it done quick.</p>]]></description>
     <guid>http://obachuka.com/2016/07/29/</guid>
-  </item>
-
-  <item>
-    <title>First alpha</title>
-    <link>http://obachuka.com/2016/07/28/</link>
-    <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.0/fat_dot.html">Here's my first version of the game!</a> It's only been tested on Chrome and Firefox. Any other browser is on their own. Input doesn't work on mobile phones either.</p> <p>There's still a bunch of bugs in this release, and I couldn't get text rendering working either, so I'm printing it to the console output. As I've said before, I want to replace my font code anyways.</p> <p>I want to give a shoutout to <a href="http://lyceum-allotments.github.io/">John Sharp's blog</a>. Emscripten has a lot of documentation, but for some reason, I could not find the basic usage instructions. And this guy has it all neatly compiled together on his blog.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/28/</guid>
-  </item>
-
-  <item>
-    <title>Reberu</title>
-    <link>http://obachuka.com/2016/07/27/</link>
-    <description><![CDATA[<p>Here's a gif of one of the higher levels. Random sizes and spiky dots.</p> <img src="http://i.imgur.com/JOtM65L.gif"> <p>There's a glitch in this image. A red dot trespasses through the explosion fine without any repercussion. It seems to happen only with large explosions, so it's probably a glitch with my quadtree.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/27/</guid>
-  </item>
-
-  <item>
-    <title>Invincible spikes</title>
-    <link>http://obachuka.com/2016/07/26/</link>
-    <description><![CDATA[<p>I introduced invincible spikes today. Spikes means a dot is invincible, while a gray outline means that a dot <i>can</i> turn invincible.</p> <img src="http://i.imgur.com/bjTq8YL.gif"/> <p>The player dot uses the same spikes and outline to denote when the player is attacking and when the player is ready to attack.</p> <p>I made invincible dots to introduce a different type of difficulty in later levels. That's right, my game will have levels. Levels is my last "necessary" feature before I am willing to say my game is in a finished state.</p> <h3>Here are my remaining required tasks:</h3> <ul> <li>Levels</li> <li>Compile to Windows 10</li> </ul> <h3>Here are my remaining optional tasks:</h3> <ul> <li>Sound</li> <li>Purple dot</li> <li>Saving high scores</li> <li>Power up pick up</li> <li>Better font rendering</li> <li>Hard mode</li> <li>Compile to OS X</li> </ul> <h3>Here are tasks I've given up on finishing:</h3> <ul> <li>Use OpenGL directly</li> <li>Animation</li> <li>Music</li> </ul> <p>The reason I put "levels" above something like "sound" is because my game is honestly quite boring without it. It might have been the primary reason my game was fun. I'll go into more detail when I actually make the levels.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/26/</guid>
-  </item>
-
-  <item>
-    <title>Home stretch</title>
-    <link>http://obachuka.com/2016/07/25/</link>
-    <description><![CDATA[<p>I didn't work on my game today, but I'll still consider it a success. I reset my sleep schedule, started exercising again, and now I'm going to bed before 10PM.</p> <p>I still feel like there's so much to do, but this is my last week. Whatever I have at the end of this week, I'm publishing it. Just a bit more to do. I've published my code <a href="https://github.com/obachuka/FatDot">on GitHub</a> if you want to see the dumb stuff I did to get it all working.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/25/</guid>
   </item>
 
 </channel>
