@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Back to the drawing board</title>
+    <link>http://obachuka.com/2016/08/09/</link>
+    <description><![CDATA[<p>I've been programming too much recently, I want to practice other things. Today I drew some side figures at different heights.</p> <img src="https://goo.gl/photos/fYMvnGvQqD7es5jS8"> <p>I wonder if I think too hard while drawing. When I practice other things like piano, I am focused, but I don't think much. Instead it's really just about repeating until its' right. For drawing, I'm thinking too much about "getting it right" instead of just speed running everything. I'll think less tomorrow.</p>]]></description>
+    <guid>http://obachuka.com/2016/08/09/</guid>
+  </item>
+
+  <item>
     <title>Hard mode</title>
     <link>http://obachuka.com/2016/08/06/</link>
     <description><![CDATA[<p>My last update was garbage. I broke high scores and collision detection. I fixed the high scores, but I think the collision is still somewhat wrong. I think the best way to fix it is to just redo parts of my code. But I won't do that. I will take a look at how other people made their games though.</p> <p>I also included a hard mode. I think the only thing missing now is sound.</p> <a href="http://obachuka.com/FatDot/0.3.0/fat_dot.html">Newest version here</a>.</p>]]></description>
@@ -34,13 +41,6 @@
     <link>http://obachuka.com/2016/07/31/</link>
     <description><![CDATA[<p>I didn't make a post yesterday, but I won't count that as missing a day because I actually did a lot of work yesterday. As of today, my game is gameplay complete. It's still missing sound, and I want to fix a few UI problems and other bugs. But I consider those minor changes. There won't be any dramatic changes in the game from here. <a href="http://obachuka.com/FatDot/0.2.0/fat_dot.html">Check it out here</a>.</p> ]]></description>
     <guid>http://obachuka.com/2016/07/31/</guid>
-  </item>
-
-  <item>
-    <title>Improved fonts</title>
-    <link>http://obachuka.com/2016/07/29/</link>
-    <description><![CDATA[<p><a href="http://obachuka.com/FatDot/0.1.1/fat_dot.html">Check out my better font rendering!</a> So it turns out I was just being stupid about my fonts. All my complaints were all easily addressed, I was just too lazy to look, since I wanted to get it done quick.</p>]]></description>
-    <guid>http://obachuka.com/2016/07/29/</guid>
   </item>
 
 </channel>
