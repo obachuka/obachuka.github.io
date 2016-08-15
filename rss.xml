@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Sound!</title>
+    <link>http://obachuka.com/2016/08/15/</link>
+    <description><![CDATA[<p>I've added sound to my game. And with that, the last item on my todo list is done. Any updates going forward will be bug fixes or minor balance changes. I took a bit of a break this week, but I'm ready to get back to work. I'll start my next game at the start of September, and until then, I'm going to study and better prepare myself than I did for Fat Dot. It will be an Asteroids clone, with the gimmick that it will be in low orbit.</p>]]></description>
+    <guid>http://obachuka.com/2016/08/15/</guid>
+  </item>
+
+  <item>
     <title>Back to the drawing board</title>
     <link>http://obachuka.com/2016/08/09/</link>
     <description><![CDATA[<p>I've been programming too much recently, I want to practice other things. Today I drew some side figures at different heights.</p> <img src="https://lh3.googleusercontent.com/MeQF2vKtYKolpdy0FumxAqTi-JfpAkI5Fz-0BUrcaDh34OD-IVv2L0YkgIViC4PwhQQD7NHTTrpzTMasdEGSnsUBL9mvzKme8rOEU_1JRDmKcEUoiOmXDwJSC29HgkgO8Y0lxke-EoBMA5QWD-rM78G5hr1t_hnJVZuiN5xEB7GGvoF2WXSM4b-qf6-UE9zkDYEYozpfygEhiITa34-Ok4C5taDD_kgT6xAZMPIfA8_llVCTo-1UTIxrFI25L7gcIHV3xwHM9noqZqRDtu_VVy5zuctC8mZOJVS8_SeAGR5jcTmWcQVm7BPvTmdAl-0MrbL_5Se5Vc48PkKHAqld3zXCbO1uXnW1cayrsk-BgUOuHEnj8pxDchf8X3iyxugaKL7Gnq5FaJcnL_iDEg40TSCLF4V9JeFDnk1h6CYIzkzJo7Gv8E04q3ziZIxL9xkEESNRnDt_ouoim_uoc8T-KtPsyqqmlYoJy07S58bwYKyxhXAah8RvE8jRe8wf_ABgRiC-4rDkzR2bw8xA34cU_RVOL-DLvmsE5LdtiO0gHyO6QKxAN2RLdzvB2Axhmr7SOidIzGQVJoL5VZIU68wPqZxM-uxCdYs=w1805-h1350-no"> <p>I wonder if I think too hard while drawing. When I practice other things like piano, I am focused, but I don't think much. Instead it's really just about repeating until its' right. For drawing, I'm thinking too much about "getting it right" instead of just speed running everything. I'll think less tomorrow.</p>]]></description>
@@ -34,13 +41,6 @@
     <link>http://obachuka.com/2016/08/01/</link>
     <description><![CDATA[<p>I made some text updates, so hopefully it's more clear how to play the game. I said I wasn't going to add any more feautures, but I got so much done today, that I figured I could go ahead and add sound. It took me six hours, and sound still doesn't work. It's infuriating. I hate sound. Anyways, play the newest version <a href="http://obachuka.com/FatDot/0.2.1/fat_dot.html">here</a>.</p> ]]></description>
     <guid>http://obachuka.com/2016/08/01/</guid>
-  </item>
-
-  <item>
-    <title>Beta release</title>
-    <link>http://obachuka.com/2016/07/31/</link>
-    <description><![CDATA[<p>I didn't make a post yesterday, but I won't count that as missing a day because I actually did a lot of work yesterday. As of today, my game is gameplay complete. It's still missing sound, and I want to fix a few UI problems and other bugs. But I consider those minor changes. There won't be any dramatic changes in the game from here. <a href="http://obachuka.com/FatDot/0.2.0/fat_dot.html">Check it out here</a>.</p> ]]></description>
-    <guid>http://obachuka.com/2016/07/31/</guid>
   </item>
 
 </channel>
