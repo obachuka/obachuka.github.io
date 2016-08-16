@@ -9,8 +9,15 @@
   <language>en</language>
 
   <item>
-    <title>Sound!</title>
+    <title>Practiced more figures</title>
     <link>http://obachuka.com/2016/08/15/</link>
+    <description><![CDATA[<p>I practiced drawing; more of the same really. I wonder if there's any point in updating every day. It's just me saying, "Hey. Check me out. I did something today."</p> <p>Maybe I should get rid of the rss feed. This is really just a way to hold me accountable; people shouldn't actually be reading these low effort posts.</p>]]></description>
+    <guid>http://obachuka.com/2016/08/14/</guid>
+  </item>
+
+  <item>
+    <title>Sound!</title>
+    <link>http://obachuka.com/2016/08/14/</link>
     <description><![CDATA[<p>I've added sound to my game. And with that, the last item on my todo list is done. Any updates going forward will be bug fixes or minor balance changes. I took a bit of a break this week, but I'm ready to get back to work. I'll start my next game at the start of September, and until then, I'm going to study and better prepare myself than I did for Fat Dot. It will be an Asteroids clone, with the gimmick that it will be in low orbit.</p>]]></description>
     <guid>http://obachuka.com/2016/08/15/</guid>
   </item>
@@ -34,13 +41,6 @@
     <link>http://obachuka.com/2016/08/04/</link>
     <description><![CDATA[<p>I've been making minor imporvements to my game, such as an indicator to show when you can click again. I know I said I wanted to make a game a month, and that I'd stop working on this game after July. But I'm kind of tired, and after the feedback I'm recieving for my game, I want to improve it. Doing a game a month is too much for me. This month, I'm going to make minor improvements, practice some art, and research how other people made their game engines. The way I handled my object pools was done rather poorly, so I'd like to improve upon that.<a href="http://obachuka.com/FatDot/0.2.2/fat_dot.html"> Newest version here</a>.</p>]]></description>
     <guid>http://obachuka.com/2016/08/02/</guid>
-  </item>
-
-  <item>
-    <title>UI improvements</title>
-    <link>http://obachuka.com/2016/08/01/</link>
-    <description><![CDATA[<p>I made some text updates, so hopefully it's more clear how to play the game. I said I wasn't going to add any more feautures, but I got so much done today, that I figured I could go ahead and add sound. It took me six hours, and sound still doesn't work. It's infuriating. I hate sound. Anyways, play the newest version <a href="http://obachuka.com/FatDot/0.2.1/fat_dot.html">here</a>.</p> ]]></description>
-    <guid>http://obachuka.com/2016/08/01/</guid>
   </item>
 
 </channel>
