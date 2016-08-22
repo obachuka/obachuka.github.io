@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Flat figures in perspective</title>
+    <link>http://obachuka.com/2016/08/21/</link>
+    <description><![CDATA[<p>Just following along with Loomis.</p> <img src="https://lh3.googleusercontent.com/samkXsdB1i1GQ3967gL1gh8PJrqO0ToqsFPUCcZqfmFccqfhUKxkkgXSyzAwau6V4iVZi31c5RoCcb81P4rvrk2jZLZmWTm-3pHM88PRW66C-8MBdfY7xX-OZ9uA0dz4W-n2me6eqXoVMFW89jj-VhiCVaHmO6iN9QGIMmnJAd2LyovJjedEivmxhyXwFLZA-MQXipFCh6dsKyRyBgYLi7Wbhu7iT-s0hOi6NMn1echjegxQuF8vV6_9AFa3qP6h0uxQHSvHEt0VQCbx1ldt-KC5N06qb_Im9BPZwJN8FY9m0RHEC1EYbGLBi1aQcf3RQwJUQ9CLl9z7h4mnJmfvx4DLbO9jq9QvMFUWSKGAM1P-zEZsR79s3txZQjHNOv67VlmFAmPqGThXTO5vgF1RywB3zJd9fP_frT0DI-XJH4xr8DHmVjvVEfbtKBZ-oDZX3MtOMuOaJqIOpci-jPYkIiTWwLa1QNl0u7CNZBGbOcTVRsutkHGAkDw1warWTqI-g4x4K1v4pCj3Dh9RyBIprcTnv5Q_jbFiAAqYh_2OQW8pR-Kzr9aG5BrBO128lwoq33q9PNu6ZBCReUCBng2jD5NbHMByqyc=w1805-h1350-no">]]></description>
+    <guid>http://obachuka.com/2016/08/21/</guid>
+  </item>
+
+  <item>
     <title>Heights of children</title>
     <link>http://obachuka.com/2016/08/18/</link>
     <description><![CDATA[<p>Tried figure outlines at different heights, this time using proportions of men at different ages.</p>
@@ -35,20 +42,6 @@
     <link>http://obachuka.com/2016/08/09/</link>
     <description><![CDATA[<p>I've been programming too much recently, I want to practice other things. Today I drew some side figures at different heights.</p> <img src="https://lh3.googleusercontent.com/MeQF2vKtYKolpdy0FumxAqTi-JfpAkI5Fz-0BUrcaDh34OD-IVv2L0YkgIViC4PwhQQD7NHTTrpzTMasdEGSnsUBL9mvzKme8rOEU_1JRDmKcEUoiOmXDwJSC29HgkgO8Y0lxke-EoBMA5QWD-rM78G5hr1t_hnJVZuiN5xEB7GGvoF2WXSM4b-qf6-UE9zkDYEYozpfygEhiITa34-Ok4C5taDD_kgT6xAZMPIfA8_llVCTo-1UTIxrFI25L7gcIHV3xwHM9noqZqRDtu_VVy5zuctC8mZOJVS8_SeAGR5jcTmWcQVm7BPvTmdAl-0MrbL_5Se5Vc48PkKHAqld3zXCbO1uXnW1cayrsk-BgUOuHEnj8pxDchf8X3iyxugaKL7Gnq5FaJcnL_iDEg40TSCLF4V9JeFDnk1h6CYIzkzJo7Gv8E04q3ziZIxL9xkEESNRnDt_ouoim_uoc8T-KtPsyqqmlYoJy07S58bwYKyxhXAah8RvE8jRe8wf_ABgRiC-4rDkzR2bw8xA34cU_RVOL-DLvmsE5LdtiO0gHyO6QKxAN2RLdzvB2Axhmr7SOidIzGQVJoL5VZIU68wPqZxM-uxCdYs=w1805-h1350-no"> <p>I wonder if I think too hard while drawing. When I practice other things like piano, I am focused, but I don't think much. Instead it's really just about repeating until its' right. For drawing, I'm thinking too much about "getting it right" instead of just speed running everything. I'll think less tomorrow.</p>]]></description>
     <guid>http://obachuka.com/2016/08/09/</guid>
-  </item>
-
-  <item>
-    <title>Hard mode</title>
-    <link>http://obachuka.com/2016/08/06/</link>
-    <description><![CDATA[<p>My last update was garbage. I broke high scores and collision detection. I fixed the high scores, but I think the collision is still somewhat wrong. I think the best way to fix it is to just redo parts of my code. But I won't do that. I will take a look at how other people made their games though.</p> <p>I also included a hard mode. I think the only thing missing now is sound.</p> <a href="http://obachuka.com/FatDot/0.3.0/fat_dot.html">Newest version here</a>.</p>]]></description>
-    <guid>http://obachuka.com/2016/08/06/</guid>
-  </item>
-
-  <item>
-    <title>Minor improvements</title>
-    <link>http://obachuka.com/2016/08/04/</link>
-    <description><![CDATA[<p>I've been making minor imporvements to my game, such as an indicator to show when you can click again. I know I said I wanted to make a game a month, and that I'd stop working on this game after July. But I'm kind of tired, and after the feedback I'm recieving for my game, I want to improve it. Doing a game a month is too much for me. This month, I'm going to make minor improvements, practice some art, and research how other people made their game engines. The way I handled my object pools was done rather poorly, so I'd like to improve upon that.<a href="http://obachuka.com/FatDot/0.2.2/fat_dot.html"> Newest version here</a>.</p>]]></description>
-    <guid>http://obachuka.com/2016/08/02/</guid>
   </item>
 
 </channel>
