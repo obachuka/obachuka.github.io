@@ -9,6 +9,13 @@
   <language>en</language>
 
   <item>
+    <title>Converting height to normal maps</title>
+    <link>http://obachuka.com/2016/08/27/</link>
+    <description><![CDATA[<p>For my next game, I want to experiment with my own 2D rendering. I'll need normal maps for what I'm planning, so I wrote my own small little converter to transform height maps to normal maps. I know programs already exist that can do this for you, but I wanted to try my own hand at it. I stole the following height map of a volcano from the internet somewhere.</p> <img src="http://www.pontov.com.br/site/images/stories/artigos/Criando-terrenos_124C4/volcano.png"/> <p>Here is the result:</p> <img src="http://i.imgur.com/NKLfPFF.png"/> <p>Red is the x axis, with full red pointing to the right, and green is the y axis, with full green pointing up. All vectors are normalized, with blue pointing outwards to the viewer. Looking at other people's normal maps, these look correct, but I won't actually know until I use them to render.</p> </body> ]]></description>
+    <guid>http://obachuka.com/2016/08/27/</guid>
+  </item>
+
+  <item>
     <title>Flat figures in perspective</title>
     <link>http://obachuka.com/2016/08/21/</link>
     <description><![CDATA[<p>Just following along with Loomis.</p> <img src="https://lh3.googleusercontent.com/samkXsdB1i1GQ3967gL1gh8PJrqO0ToqsFPUCcZqfmFccqfhUKxkkgXSyzAwau6V4iVZi31c5RoCcb81P4rvrk2jZLZmWTm-3pHM88PRW66C-8MBdfY7xX-OZ9uA0dz4W-n2me6eqXoVMFW89jj-VhiCVaHmO6iN9QGIMmnJAd2LyovJjedEivmxhyXwFLZA-MQXipFCh6dsKyRyBgYLi7Wbhu7iT-s0hOi6NMn1echjegxQuF8vV6_9AFa3qP6h0uxQHSvHEt0VQCbx1ldt-KC5N06qb_Im9BPZwJN8FY9m0RHEC1EYbGLBi1aQcf3RQwJUQ9CLl9z7h4mnJmfvx4DLbO9jq9QvMFUWSKGAM1P-zEZsR79s3txZQjHNOv67VlmFAmPqGThXTO5vgF1RywB3zJd9fP_frT0DI-XJH4xr8DHmVjvVEfbtKBZ-oDZX3MtOMuOaJqIOpci-jPYkIiTWwLa1QNl0u7CNZBGbOcTVRsutkHGAkDw1warWTqI-g4x4K1v4pCj3Dh9RyBIprcTnv5Q_jbFiAAqYh_2OQW8pR-Kzr9aG5BrBO128lwoq33q9PNu6ZBCReUCBng2jD5NbHMByqyc=w1805-h1350-no">]]></description>
@@ -35,13 +42,6 @@
     <link>http://obachuka.com/2016/08/14/</link>
     <description><![CDATA[<p>I've added sound to my game. And with that, the last item on my todo list is done. Any updates going forward will be bug fixes or minor balance changes. I took a bit of a break this week, but I'm ready to get back to work. I'll start my next game at the start of September, and until then, I'm going to study and better prepare myself than I did for Fat Dot. It will be an Asteroids clone, with the gimmick that it will be in low orbit.</p>]]></description>
     <guid>http://obachuka.com/2016/08/15/</guid>
-  </item>
-
-  <item>
-    <title>Back to the drawing board</title>
-    <link>http://obachuka.com/2016/08/09/</link>
-    <description><![CDATA[<p>I've been programming too much recently, I want to practice other things. Today I drew some side figures at different heights.</p> <img src="https://lh3.googleusercontent.com/MeQF2vKtYKolpdy0FumxAqTi-JfpAkI5Fz-0BUrcaDh34OD-IVv2L0YkgIViC4PwhQQD7NHTTrpzTMasdEGSnsUBL9mvzKme8rOEU_1JRDmKcEUoiOmXDwJSC29HgkgO8Y0lxke-EoBMA5QWD-rM78G5hr1t_hnJVZuiN5xEB7GGvoF2WXSM4b-qf6-UE9zkDYEYozpfygEhiITa34-Ok4C5taDD_kgT6xAZMPIfA8_llVCTo-1UTIxrFI25L7gcIHV3xwHM9noqZqRDtu_VVy5zuctC8mZOJVS8_SeAGR5jcTmWcQVm7BPvTmdAl-0MrbL_5Se5Vc48PkKHAqld3zXCbO1uXnW1cayrsk-BgUOuHEnj8pxDchf8X3iyxugaKL7Gnq5FaJcnL_iDEg40TSCLF4V9JeFDnk1h6CYIzkzJo7Gv8E04q3ziZIxL9xkEESNRnDt_ouoim_uoc8T-KtPsyqqmlYoJy07S58bwYKyxhXAah8RvE8jRe8wf_ABgRiC-4rDkzR2bw8xA34cU_RVOL-DLvmsE5LdtiO0gHyO6QKxAN2RLdzvB2Axhmr7SOidIzGQVJoL5VZIU68wPqZxM-uxCdYs=w1805-h1350-no"> <p>I wonder if I think too hard while drawing. When I practice other things like piano, I am focused, but I don't think much. Instead it's really just about repeating until its' right. For drawing, I'm thinking too much about "getting it right" instead of just speed running everything. I'll think less tomorrow.</p>]]></description>
-    <guid>http://obachuka.com/2016/08/09/</guid>
   </item>
 
 </channel>
