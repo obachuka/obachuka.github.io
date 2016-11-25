@@ -9,9 +9,16 @@
   <language>en</language>
 
   <item>
+    <title>Fat Dot Thanksgiving update</title>
+    <link>http://obachuka.com/2016/11/24/</link>
+    <description><![CDATA[<p>Happy Thanksgiving! This year, I'm thankful for being the most awesome guy I know. To celebrate my inflated ego, I gave Fat Dot an update.</p><p>This is a gameplay change this time. The way you play the game is still the same, but I made shrinking easier to understand, as in you now shrink automatically. The boundary's behavior was changed to end and score your combo. This change came about because I didn't like how the clicking behavior changed when an existing combo was already in progress. Plus, some players wouldn't regularly shrink themselves. The game is a bit easier now that the shrinking is automatic, but you still have to decide whether or not you want to continue your combo. A side effect of this update means that you can now extend your combos further by starting another explosion. I think there's more strategy this way.</p><p>That said, it's hard to know the actual outcome of this update, because I haven't really play tested it. And since I don't have any sort of testing (who needs that?), it's hard to tell if I introduced any bugs. It's been a while since my last update here, and coming back to my code after a few months, I noticed there were side effects everywhere. Any small change could result in a bug. I started out my code with the intention of violating several best practices, and it was fun to code differently from when I code for work.</p><p>So if you find any bugs, let me know. Love y'all.</p>]]></description>
+    <guid>http://obachuka.com/2016/11/24/</guid>
+  </item>
+
+  <item>
     <title>Converting height to normal maps</title>
     <link>http://obachuka.com/2016/08/27/</link>
-    <description><![CDATA[<p>For my next game, I want to experiment with my own 2D rendering. I'll need normal maps for what I'm planning, so I wrote my own small little converter to transform height maps to normal maps. I know programs already exist that can do this for you, but I wanted to try my own hand at it. I stole the following height map of a volcano from the internet somewhere.</p> <img src="http://www.pontov.com.br/site/images/stories/artigos/Criando-terrenos_124C4/volcano.png"/> <p>Here is the result:</p> <img src="http://i.imgur.com/NKLfPFF.png"/> <p>Red is the x axis, with full red pointing to the right, and green is the y axis, with full green pointing up. All vectors are normalized, with blue pointing outwards to the viewer. Looking at other people's normal maps, these look correct, but I won't actually know until I use them to render.</p> </body> ]]></description>
+    <description><![CDATA[<p>For my next game, I want to experiment with my own 2D rendering. I'll need normal maps for what I'm planning, so I wrote my own small little converter to transform height maps to normal maps. I know programs already exist that can do this for you, but I wanted to try my own hand at it. I stole the following height map of a volcano from the internet somewhere.</p> <img src="http://www.pontov.com.br/site/images/stories/artigos/Criando-terrenos_124C4/volcano.png"/> <p>Here is the result:</p> <img src="http://i.imgur.com/NKLfPFF.png"/> <p>Red is the x axis, with full red pointing to the right, and green is the y axis, with full green pointing up. All vectors are normalized, with blue pointing outwards to the viewer. Looking at other people's normal maps, these look correct, but I won't actually know until I use them to render.</p>]]></description>
     <guid>http://obachuka.com/2016/08/27/</guid>
   </item>
 
@@ -35,13 +42,6 @@
     <link>http://obachuka.com/2016/08/15/</link>
     <description><![CDATA[<p>I practiced drawing; more of the same really. I wonder if there's any point in updating every day. It's just me saying, "Hey. Check me out. I did something today."</p> <p>Maybe I should get rid of the rss feed. This is really just a way to hold me accountable; people shouldn't actually be reading these low effort posts.</p>]]></description>
     <guid>http://obachuka.com/2016/08/14/</guid>
-  </item>
-
-  <item>
-    <title>Sound!</title>
-    <link>http://obachuka.com/2016/08/14/</link>
-    <description><![CDATA[<p>I've added sound to my game. And with that, the last item on my todo list is done. Any updates going forward will be bug fixes or minor balance changes. I took a bit of a break this week, but I'm ready to get back to work. I'll start my next game at the start of September, and until then, I'm going to study and better prepare myself than I did for Fat Dot. It will be an Asteroids clone, with the gimmick that it will be in low orbit.</p>]]></description>
-    <guid>http://obachuka.com/2016/08/15/</guid>
   </item>
 
 </channel>
