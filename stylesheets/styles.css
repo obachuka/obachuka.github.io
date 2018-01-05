@@ -2,7 +2,7 @@ html {
   font-size: 18px;
   font-family: Sans-Serif;
   color: #444;
-  width: 640px;
+  max-width: 640px;
   margin: 0 auto;
 }
   
