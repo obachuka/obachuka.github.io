@@ -1,11 +1,17 @@
-body {
-  margin: 40px auto;
-  max-width: 650px;
-  line-height: 1.2;
+html {
   font-size: 18px;
   font-family: Sans-Serif;
   color: #444;
-  padding: 10px;
+  width: 640px;
+  margin: 0 auto;
+}
+  
+body {
+  line-height: 1.4;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
 }
 
 a:link {
@@ -21,17 +27,11 @@ a:visited {
 }
 
 img {
-  margin: 40px auto;
-  max-width: 650px;
   padding: 5px;
+  display: block;
 }
 
 aside {
   font-style: italic;
-}
-
-video {
-  margin: 40px auto;
-  max-width: 650px;
 }
 
