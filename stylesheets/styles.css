@@ -3,8 +3,10 @@ body {
   font-family: Sans-Serif;
   color: #3f406c;
   background-color: #EEE;
-  max-width: 640px;
+  max-width: 680px;
   margin: 0px auto;
+  padding-left: 20px;
+  padding-right: 20px;
   line-height: 1.4;
 }
 
@@ -22,7 +24,7 @@ h1,h2,h3,h4 {
 }
 
 h1 {
-  font-size: 3.0em;
+  font-size: 2.5em;
 }
 
 h2 {
