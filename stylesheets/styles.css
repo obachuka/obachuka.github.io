@@ -1,36 +1,44 @@
-html {
+body {
   font-size: 18px;
   font-family: Sans-Serif;
-  color: #444;
+  color: #3f406c;
+  background-color: #EEE;
   max-width: 640px;
-  margin: 0 auto;
-}
-  
-body {
+  margin: 0px auto;
   line-height: 1.4;
 }
 
+header {
+  color: #c53840;
+  background-color: #DDD;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-right: 0;
+  padding-left: 30px;
+}
+
+h1,h2,h3,h4 {
+  line-height: 1.0;
+}
+
 h1 {
-  font-size: 2.0em;
-  line-height: 1.2;
+  font-size: 3.0em;
 }
 
 h2 {
-  font-size: 1.5em;
-  line-height: 1.0;
+  font-size: 2.0em;
 }
 
 h3 {
-  font-size: 1.25em;
-  line-height: 1.0;
+  font-size: 1.5em;
 }
 
-a:link {
-  color: #27d;
+h4 {
+  font-size: 1.2em;
 }
 
-a:hover {
-  color: #29e;
+a {
+  color: #28a;
 }
 
 a:visited {
@@ -44,5 +52,6 @@ img {
 
 aside {
   font-style: italic;
+  padding: 40px;
 }
 
