@@ -1,26 +1,32 @@
 body {
   font-size: 18px;
   font-family: Sans-Serif;
-  color: #3f406c;
+  color: #24243d;
   background-color: #EEE;
-  max-width: 680px;
-  margin: 0px auto;
-  padding-left: 20px;
-  padding-right: 20px;
-  line-height: 1.4;
+  line-height: 1.6;
+  margin: 0px;
 }
 
 header {
-  color: #c53840;
   background-color: #DDD;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-right: 0px;
-  padding-left: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
-h1,h2,h3,h4 {
-  line-height: 1.0;
+p,h1,h2,h3,h4,h5,img,aside,video {
+  max-width: 680px;
+  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+h1,h2,h3,h4,h5 {
+  text-align: center;
+  line-height: 1.2;
 }
 
 h1 {
@@ -39,6 +45,11 @@ h4 {
   font-size: 1.125em;
 }
 
+h5 {
+  font-size: 1.0em;
+  font-weight: normal;
+}
+
 a {
   color: #28a;
 }
@@ -48,12 +59,15 @@ a:visited {
 }
 
 img {
-  padding: 5px;
+  display: block;
+}
+
+video {
   display: block;
 }
 
 aside {
   font-style: italic;
-  padding: 40px;
+  text-align: center;
+  /*padding: 20px;*/
 }
-

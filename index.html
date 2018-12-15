@@ -4,26 +4,53 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <title>Obachuka</title>
+    <title>Gary Lu</title>
   </head>
   <body>
     <header>
-      <h1>Obachuka</h1>
-      <p><a href="https://twitter.com/obachuka">Twitter</a> | <a href="rss.xml">RSS</a> | Email: yijia@obachuka.com</p>
+      <h1>Gary Lu</h1>
+      <h5><a href="https://twitter.com/obachuka">Twitter</a> | Email: yijia@obachuka.com</h5>
     </header>
-    <h2>Games</h2>
-    <p><a href="https://obachuka.itch.io/shepherd-and-dog">Shepherd and Dog<br><img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzExOTIwODUuZ2lm/315x250%23c/z27MNw.gif" height="250"/></a></p>
 
-    <p><a href="https://obachuka.itch.io/fat-dot">Fat Dot<br><img src="https://img.itch.zone/aW1hZ2UvMjM0Nzk5LzExNTU5MDEuZ2lm/315x250%23c/65hsrh.gif"/></a></p>
+    <p>Hi, I am a programmer that worked at Amazon for a bit over 2.5 years, and now I'm looking for a programming role in the video game industry. These are some games I've made.</p>
 
-    <h2>Blog Posts</h2>
-    <h3>2018</h3>
-    <h4>April</h4>
-    <p><strong>25</strong> <a href="2018/04/25">Wolf and Ghost</a></p>
-    <h4>March</h4>
-    <p><strong>22</strong> <a href="2018/03/22">Fat Dot release</a></p>
-    <h4>January</h4>
-    <p><strong>05</strong> <a href="2018/01/05/">Balancing a Pencil</a></p>
-    <h3><a href="2016/">2016</a></h3>
+    <!-- <h2>Games</h2> -->
+
+    <h3><a href="https://obachuka.itch.io/fat-dot">Fat Dot<br><img src="https://img.itch.zone/aW1nLzE3MTczNTIuZ2lm/original/lxI97k.gif"/></a></h3>
+
+    <p>Fat Dot is a high-score game where you try to create a long, chain-reaction of explosions.</p>
+
+    <p>I made everything in the game by myself using C++, and used SDL 2.0 for cross-platform compatibility and OpenGL for rendering. The game is playable on <a href="https://play.google.com/store/apps/details?id=com.obachuka.fatdot">Android</a>, <a href="https://itunes.apple.com/us/app/fat-dot/id1357324760">iOS</a>, <a href="https://obachuka.itch.io/fat-dot">Windows, Linux, and Chrome and Firefox</a>.</p>
+
+    <p>There are 6 enemy types, and I designed their behavior to play off each other and encourage the player to move around in different ways. To help with the design, I programmed some debug abilities into the game.</p>
+
+    <p>The debug build can hot-reload newly compiled code, so any changes made to the game will update while the game is running. This way, I could balance the game without having to quit and restart every time I changed something.</p>
+
+    <p>The debug build also recorded the gameplay, and could rewind and replay what happened in realtime. This, in conjunction with hot-reload, allowed me to record myself play the game, then watch what would happen when I changed different settings. Control can also be returned at any point during the replay, and play will continue from there.</p>
+
+    <h3><a href="https://obachuka.itch.io/dekoboko">DekoBoko<br><video width="700" height="700" autoplay loop controls><source src="https://i.imgur.com/dOHQ7G4.mp4" type="video/mp4"></video></a></h3>
+
+    <!--TODO put in links-->
+
+    <p>DekoBoko is a fan-game that references a scene in the movie, <em>My Neighbor Totoro</em>. The gameplay is split into two parts, with first part dedicated to gardening and the second part recreating the movie scene. I used Unity3D to make this game, and is available on Android and iOS.</p>
+
+    <p>I drew all the art and animations. I made 17 different plants and 19 different animals to discover. Each plant and animal also has an entry in the in-game journal.</p>
+
+    <p>The music is my piano cover of the movie's score. I recorded it in separate parts, playing along to myself, so I could fade in the parts separately. For example, I fade in the melody line during action, and just play chords in the garden.</p>
+
+    <h3><a href="https://obachuka.itch.io/shepherd-and-dog">Shepherd and Dog<br><img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzExOTIwODUuZ2lm/315x250%23c/z27MNw.gif"/></a></h3>
+
+    <p>Shepherd and Dog is a game made for the Ludum Dare game jam in 3 days. In it, you control the two characters at the same time to guide sheep to the end of a level.</p>
+
+    <p>I teamed up with an artist to make this game. I did the programming and game design. The game is available on <a href="https://obachuka.itch.io/shepherd-and-dog">Windows and Chrome and Firefox</a>.</p>
+
+    <p>My teammate and I made the levels together. But since I didn't use an engine, I had to create a basic level-editor for my teammate to use. It was a simple editor that used ASCII text, but we were able to make 11 levels by the deadline.</p>
+
+    <h3><a href="https://obachuka.itch.io/asteroids-but-with-gravity">Asteroids But With Gravity<br><img src="https://img.itch.zone/aW1hZ2UvMjc0NTMzLzEzMjkyMTYuZ2lm/original/UvjQpX.gif"/></a></h3>
+
+    <p>As the title states, this is an Asteroids clone with a gravity gimmick. I made the game using Unreal Engine 4, and Blender for the art assets.</p>
+
+    <p>Normally, stuff loops around the screen in Asteroids, but I wanted a bigger playing field. Instead, the screen follows the player, but the game world still loops around without the appearance of teleporting.</p>
+
   </body>
 </html>
