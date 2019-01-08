@@ -15,13 +15,21 @@ header {
   margin-bottom: 20px;
 }
 
-p,h1,h2,h3,h4,h5,img,aside,video {
+p,h1,h2,h3,h4,h5,aside,table {
   max-width: 680px;
   margin: 0px auto;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 20px;
   padding-right: 20px;
+}
+
+img,video {
+  margin: 0px auto;
+  max-width: 680px;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 ul {
@@ -65,9 +73,6 @@ a:visited {
   color: #858;
 }
 
-img {
-  display: block;
-}
 
 video {
   display: block;

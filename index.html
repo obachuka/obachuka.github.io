@@ -9,70 +9,72 @@
   <body>
     <header>
       <h1>Gary Lu</h1>
-      <h5><a href="https://twitter.com/obachuka">Twitter</a> | Email: yijia@obachuka.com</h5>
+      <h5><a href="https://twitter.com/obachuka">@obachuka</a> | Email: yijia@obachuka.com</h5>
     </header>
 
-    <p>Hi, I am a programmer that worked at Amazon for a bit over 2.5 years, and now I'm looking for a programming role in the video game industry. These are some games I've made.</p>
+    <p>Hi, I'm a programmer that worked at Amazon for over 2.5 years, and now I'm looking for a programming role in the video game industry. These are some games I've made.</p>
 
     <!-- <h2>Games</h2> -->
-    <div class="row">
-      <div class="column">
-        <h3>
-          <a href="#fatdot">
-            Fat Dot<br>
-            <img src="https://img.itch.zone/aW1hZ2UvMjM0Nzk5LzE3NjQwMTMucG5n/original/YgnFPF.png"/>
-          </a>
-        </h3>
-      </div>
-      <div class="column">
-        <h3>
-          <a href="#dekoboko">
-            DekoBoko<br>
-            <img src="https://img.itch.zone/aW1hZ2UvMzQzODE4LzE3NjQwMzIucG5n/original/Arq0Zu.png" style="width:256px;"/>
-          </a>
-        </h3>
-      </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <h3>
+    <table>
+      <tr>
+        <td>
+          <h4>
+            <a href="#fatdot">
+              Fat Dot<br>
+              <img src="https://img.itch.zone/aW1hZ2UvMjM0Nzk5LzE3NjQwMTMucG5n/original/YgnFPF.png"/>
+            </a>
+          </h4>
+        </td>
+        <td>
+          <h4>
+            <a href="#dekoboko">
+              DekoBoko<br>
+              <img src="https://img.itch.zone/aW1hZ2UvMzQzODE4LzE3NjQwMzIucG5n/original/Arq0Zu.png" style="max-width:256px;"/>
+            </a>
+          </h4>
+        </td>
+    </tr>
+    <tr>
+      <td>
+        <h4>
           <a href="#shepherd-and-dog">
             Shepherd and Dog<br>
-            <img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzE3NjQwNzYucG5n/original/sg91uQ.png" style="width:256px;"/>
+            <img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzE3NjQwNzYucG5n/original/sg91uQ.png" style="max-width:256px;"/>
           </a>
-        </h3>
-      </div>
-      <div class="column">
-        <h3>
+        </h4>
+      </td>
+      <td>
+        <h4>
           <a href="#asteroids-but-with-gravity">
             Asteroids But With Gravity<br>
-            <img src="https://img.itch.zone/aW1hZ2UvMjc0NTMzLzE3NjQwNTMucG5n/original/mW%2FxFt.png" style="width:256px;"/>
+            <img src="https://img.itch.zone/aW1hZ2UvMjc0NTMzLzE3NjQwNTMucG5n/original/mW%2FxFt.png" style="max-width:256px;"/>
           </a>
-        </h3>
-      </div>
-    </div>
+        </h4>
+      </td>
+    </tr>
+  </table>
 
     <h2 id="fatdot">
-      <a href="https://obachuka.itch.io/fat-dot">Fat Dot<br><img src="https://img.itch.zone/aW1nLzE3MTczNTIuZ2lm/original/lxI97k.gif"/></a>
+      <a href="https://obachuka.itch.io/fat-dot">Fat Dot<br><img src="https://img.itch.zone/aW1nLzE3MTczNTIuZ2lm/original/lxI97k.gif" style="max-width:100%;" /></a>
     </h2>
 
     <p>Fat Dot is a game where players try to chain explosions to reach a high score.</p>
 
-    <p>I made everything myself, from my own collision detection to implementing game rules.</p>
+    <p>I made everything myself, from coding my own collision detection to designing game rules.</p>
 
     <h4 style="text-align:left;">Project Highlights:</h4>
 
     <ul>
       <li>Simple, single-button gameplay</li>
-      <li>Depth comes from the 6 different enemy types</li>
+      <li>6 different enemy types</li>
       <ul>
-        <li>Some enemy types will interact with each other</li>
-        <li>Avoiding one type of enemy might push players towards another enemy</li>
-        <li>Designed to encourage different types of movement</li>
+        <li>Enemies can interact with each other</li>
+        <li>Avoiding one type of enemy might push players towards another</li>
+        <li>Encourages different types player of movement</li>
       </ul>
     </ul>
     <ul>
-      <li>Implemented debug abilities to help with design</li>
+      <li>Implemented custom debug abilities to help with design</li>
       <ul>
         <li>Hot-reload newly compiled code to reflect updates without restarting</li>
         <li>Record and replay gameplay in real-time</li>
@@ -84,65 +86,42 @@
     <h4 style="text-align:left;">Specs:</h4>
     <ul>
       <li>
-        Language
-        <ul>
-          <li>C++</li>
-        </ul>
+        Language: C++
       </li>
       <li>
-        Libraries
-        <ul>
-          <li>SDL 2.0</li>
-          <li>OpenGL</li>
-        </ul>
+        Libraries: SDL 2.0, OpenGL
       </li>
       <li>
-        Platforms
-        <ul>
-          <li><a href="https://play.google.com/store/apps/details?id=com.obachuka.fatdot">Android</a></li>
-          <li><a href="https://itunes.apple.com/us/app/fat-dot/id1357324760">iOS</a></li>
-          <li><a href="https://obachuka.itch.io/fat-dot">Windows</a></li>
-          <li><a href="https://obachuka.itch.io/fat-dot">Linux</a></li>
-          <li><a href="https://obachuka.itch.io/fat-dot">Chrome/Firefox</a></li>
+        Platforms: <a href="https://play.google.com/store/apps/details?id=com.obachuka.fatdot">Android</a>, <a href="https://itunes.apple.com/us/app/fat-dot/id1357324760">iOS</a>, <a href="https://obachuka.itch.io/fat-dot">Windows, Linux, Chrome/Firefox</a></li>
         </ul>
       </li>
     </ul>
 
     <h2 id="dekoboko"><a href="https://obachuka.itch.io/dekoboko">DekoBoko<br><video width="700" height="700" autoplay loop controls><source src="https://i.imgur.com/dOHQ7G4.mp4" type="video/mp4"></video></a></h2>
 
-    <p>DekoBoko is a fan game paying tribute the movie, <em>My Neighbor Totoro</em>. Gameplay is split into two parts. In the first part, players tend to their own garden. In the second part, players control the small Totoro to grow a giant tree, recreating an iconic scene from the film.</p>
+    <p>DekoBoko is a fan game paying tribute to the movie, <em>My Neighbor Totoro</em>. Gameplay is split into two parts. In the first part, players tend to their own garden. In the second part, players control the small Totoro to grow a giant tree, recreating an iconic scene from the film.</p>
 
     <p>I developed the game solo.</p>
 
     <h4 style="text-align:left;">Project Highlights:</h4>
     <ul>
       <li>Hand-drawn art and animations</li>
-      <li>17 plants</li>
-      <li>19 animals</li>
+      <li>17 plants and 19 animals to discover</li>
       <li>7 items and upgrades</li>
-      <li>In-game journal with entries on each plant and animal</li>
+      <li>In-game journal with unique entries on each plant and animal</li>
       <li>Self-arranged piano cover of the movie's score</li>
     </ul>
 
     <h4 style="text-align:left;">Specs:</h4>
     <ul>
       <li>
-        Language
-        <ul>
-          <li>C#</li>
-        </ul>
+        Language: C#
       </li>
       <li>
-        Game Engine
-        <ul>
-          <li>Unity</li>
-        </ul>
+        Game Engine: Unity
       </li>
       <li>
-        Platforms
-        <ul>
-          <li><a href="https://play.google.com/store/apps/details?id=com.obachuka.dekoboko">Android</a></li>
-          <li><a href="https://itunes.apple.com/us/app/dekoboko/id1440355737">iOS</a></li>
+        Platforms: <a href="https://play.google.com/store/apps/details?id=com.obachuka.dekoboko">Android</a>, <a href="https://itunes.apple.com/us/app/dekoboko/id1440355737">iOS</a></li>
         </ul>
       </li>
     </ul>
@@ -151,7 +130,7 @@
 
     <p>Shepherd and Dog is a game made in 3 days for the Ludum Dare Game Jam. Players control a shepherd-and-dog team to guide their sheep back home.</p>
 
-    <p>I did the programming and game design, and teamed up with an artist to complete the art assets.</p>
+    <p>I did the programming and game design, and I teamed up with an artist to complete the art assets.</p>
 
     <h4 style="text-align:left;">Project Highlights:</h4>
     <ul>
@@ -160,9 +139,9 @@
         <li>Reads ASCII text to lay out tiles in the level</li>
         <li>Completed 11 levels before the deadline</li>
       </ul>
-      <li>Seemingly complex wolf behavior</li>
+      <li>Complex wolf behavior</li>
       <ul>
-        <li>Governed by a set of rules based off Pac-Man</li>
+        <li>Governed by a set of rules inspired by Pac-Man</li>
         <li>Appears to surround the player</li>
         <li>Occasionally backs off to give player breathing space</li>
       </ul>
@@ -171,23 +150,13 @@
     <h4 style="text-align:left;">Specs:</h4>
     <ul>
       <li>
-        Language
-        <ul>
-          <li>C++</li>
-        </ul>
+        Language: C++
       </li>
       <li>
-        Libraries
-        <ul>
-          <li>SDL 2.0</li>
-          <li>Box2D</li>
-        </ul>
+        Libraries: SDL 2.0, Box2D
       </li>
       <li>
-        Platforms
-        <ul>
-          <li><a href="https://obachuka.itch.io/shepherd-and-dog">Windows</a></li>
-          <li><a href="https://obachuka.itch.io/shepherd-and-dog">Chrome/Firefox</a></li>
+        Platforms: <a href="https://obachuka.itch.io/shepherd-and-dog">Windows</a>, <a href="https://obachuka.itch.io/shepherd-and-dog">Chrome/Firefox</a></li>
         </ul>
       </li>
     </ul>
@@ -207,23 +176,13 @@
     <h4 style="text-align:left;">Specs:</h4>
     <ul>
       <li>
-        Language
-        <ul>
-          <li>C++</li>
-          <li>Blueprints</li>
-        </ul>
+        Language: C++, Blueprints
       </li>
       <li>
-        Game Engine
-        <ul>
-          <li>Unreal Engine 4</li>
-        </ul>
+        Game Engine: Unreal Engine 4
       </li>
       <li>
-        Platforms
-        <ul>
-          <li><a href="https://obachuka.itch.io/asteroids-but-with-gravity">Windows</a></li>
-        </ul>
+        Platforms: <a href="https://obachuka.itch.io/asteroids-but-with-gravity">Windows</a>
       </li>
     </ul>
 
