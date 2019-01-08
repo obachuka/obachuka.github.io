@@ -15,46 +15,217 @@
     <p>Hi, I am a programmer that worked at Amazon for a bit over 2.5 years, and now I'm looking for a programming role in the video game industry. These are some games I've made.</p>
 
     <!-- <h2>Games</h2> -->
+    <div class="row">
+      <div class="column">
+        <h3>
+          <a href="#fatdot">
+            Fat Dot<br>
+            <img src="https://img.itch.zone/aW1hZ2UvMjM0Nzk5LzE3NjQwMTMucG5n/original/YgnFPF.png"/>
+          </a>
+        </h3>
+      </div>
+      <div class="column">
+        <h3>
+          <a href="#dekoboko">
+            DekoBoko<br>
+            <img src="https://img.itch.zone/aW1hZ2UvMzQzODE4LzE3NjQwMzIucG5n/original/Arq0Zu.png" style="width:256px;"/>
+          </a>
+        </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <h3>
+          <a href="#shepherd-and-dog">
+            Shepherd and Dog<br>
+            <img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzE3NjQwNzYucG5n/original/sg91uQ.png" style="width:256px;"/>
+          </a>
+        </h3>
+      </div>
+      <div class="column">
+        <h3>
+          <a href="#asteroids-but-with-gravity">
+            Asteroids But With Gravity<br>
+            <img src="https://img.itch.zone/aW1hZ2UvMjc0NTMzLzE3NjQwNTMucG5n/original/mW%2FxFt.png" style="width:256px;"/>
+          </a>
+        </h3>
+      </div>
+    </div>
 
-    <h3><a href="https://obachuka.itch.io/fat-dot">Fat Dot<br><img src="https://img.itch.zone/aW1nLzE3MTczNTIuZ2lm/original/lxI97k.gif"/></a></h3>
+    <h2 id="fatdot">
+      <a href="https://obachuka.itch.io/fat-dot">Fat Dot<br><img src="https://img.itch.zone/aW1nLzE3MTczNTIuZ2lm/original/lxI97k.gif"/></a>
+    </h2>
 
-    <p>Fat Dot is a game where players try to chain explosions to reach a high score. I made everything myself, from my own collision detection to implementing game rules.</p>
+    <p>Fat Dot is a game where players try to chain explosions to reach a high score.</p>
 
-    <p>There are 6 different enemies, designed to complement each other and encourage the player to move around in different ways. To help with the design, I programmed some debug abilities into the game.</p>
+    <p>I made everything myself, from my own collision detection to implementing game rules.</p>
 
-    <p>The debug build hot-reloads newly compiled code, and any changes will update while the game is still running. The game can be rebalanced in real-time without having to quit and restart with every change.</p>
+    <h4 style="text-align:left;">Project Highlights:</h4>
 
-    <p>The debug build can also record and replay gameplay in real-time. Used in conjunction with hot-reload, this allowed me to record gameplay, modify settings, then replay the recording to see changes in action. Control can be returned at any point during the replay, and play will continue from there.</p>
+    <ul>
+      <li>Simple, single-button gameplay</li>
+      <li>Depth comes from the 6 different enemy types</li>
+      <ul>
+        <li>Some enemy types will interact with each other</li>
+        <li>Avoiding one type of enemy might push players towards another enemy</li>
+        <li>Designed to encourage different types of movement</li>
+      </ul>
+    </ul>
+    <ul>
+      <li>Implemented debug abilities to help with design</li>
+      <ul>
+        <li>Hot-reload newly compiled code to reflect updates without restarting</li>
+        <li>Record and replay gameplay in real-time</li>
+        <li>Hot-reload during replays to see changes in action</li>
+        <li>Resume control at any point during replay</li>
+      </ul>
+    </ul>
 
-    <p>I used C++ to make the game, SDL 2.0 for cross-platform compatibility, and OpenGL for rendering. The game is playable on <a href="https://play.google.com/store/apps/details?id=com.obachuka.fatdot">Android</a>, <a href="https://itunes.apple.com/us/app/fat-dot/id1357324760">iOS</a>, <a href="https://obachuka.itch.io/fat-dot">Windows, Linux, and Chrome/Firefox</a>.</p>
+    <h4 style="text-align:left;">Specs:</h4>
+    <ul>
+      <li>
+        Language
+        <ul>
+          <li>C++</li>
+        </ul>
+      </li>
+      <li>
+        Libraries
+        <ul>
+          <li>SDL 2.0</li>
+          <li>OpenGL</li>
+        </ul>
+      </li>
+      <li>
+        Platforms
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.obachuka.fatdot">Android</a></li>
+          <li><a href="https://itunes.apple.com/us/app/fat-dot/id1357324760">iOS</a></li>
+          <li><a href="https://obachuka.itch.io/fat-dot">Windows</a></li>
+          <li><a href="https://obachuka.itch.io/fat-dot">Linux</a></li>
+          <li><a href="https://obachuka.itch.io/fat-dot">Chrome/Firefox</a></li>
+        </ul>
+      </li>
+    </ul>
 
-    <h3><a href="https://obachuka.itch.io/dekoboko">DekoBoko<br><video width="700" height="700" autoplay loop controls><source src="https://i.imgur.com/dOHQ7G4.mp4" type="video/mp4"></video></a></h3>
+    <h2 id="dekoboko"><a href="https://obachuka.itch.io/dekoboko">DekoBoko<br><video width="700" height="700" autoplay loop controls><source src="https://i.imgur.com/dOHQ7G4.mp4" type="video/mp4"></video></a></h2>
 
     <p>DekoBoko is a fan game paying tribute the movie, <em>My Neighbor Totoro</em>. Gameplay is split into two parts. In the first part, players tend to their own garden. In the second part, players control the small Totoro to grow a giant tree, recreating an iconic scene from the film.</p>
 
-    <p>Like with Fat Dot, I developed the game solo. The art and animations are all hand drawn. Players can discover 17 different plants and 19 different animals, each with their own entry in the in-game journal.</p>
+    <p>I developed the game solo.</p>
 
-    <p>The music is a self-arranged piano cover of the movie's score. I recorded the song in 6 layers, so the game could fade in the layers separately. Players can water their garden to background violin chords. When they switch to the tree-growing game, a piano melody fades in to match the ascending action.</p>
+    <h4 style="text-align:left;">Project Highlights:</h4>
+    <ul>
+      <li>Hand-drawn art and animations</li>
+      <li>17 plants</li>
+      <li>19 animals</li>
+      <li>7 items and upgrades</li>
+      <li>In-game journal with entries on each plant and animal</li>
+      <li>Self-arranged piano cover of the movie's score</li>
+    </ul>
 
-    <p>I used Unity3D to make the game, and is available on <a href="https://play.google.com/store/apps/details?id=com.obachuka.dekoboko">Android</a> and <a href="https://itunes.apple.com/us/app/dekoboko/id1440355737">iOS.</a></p>
+    <h4 style="text-align:left;">Specs:</h4>
+    <ul>
+      <li>
+        Language
+        <ul>
+          <li>C#</li>
+        </ul>
+      </li>
+      <li>
+        Game Engine
+        <ul>
+          <li>Unity</li>
+        </ul>
+      </li>
+      <li>
+        Platforms
+        <ul>
+          <li><a href="https://play.google.com/store/apps/details?id=com.obachuka.dekoboko">Android</a></li>
+          <li><a href="https://itunes.apple.com/us/app/dekoboko/id1440355737">iOS</a></li>
+        </ul>
+      </li>
+    </ul>
 
-    <h3><a href="https://obachuka.itch.io/shepherd-and-dog">Shepherd and Dog<br><img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzExOTIwODUuZ2lm/315x250%23c/z27MNw.gif"/></a></h3>
+    <h2 id="shepherd-and-dog"><a href="https://obachuka.itch.io/shepherd-and-dog">Shepherd and Dog<br><img src="https://img.itch.zone/aW1hZ2UvMjQ5NDA3LzExOTIwODUuZ2lm/315x250%23c/z27MNw.gif"/></a></h2>
 
     <p>Shepherd and Dog is a game made in 3 days for the Ludum Dare Game Jam. Players control a shepherd-and-dog team to guide their sheep back home.</p>
 
-    <p>I did the programming and game design, and teamed up with an artist to complete the art assets. My partner and I made the levels together. Since I didn't use an engine, I instead created a basic, level editor for my teammate to use. The editor used simple ASCII text, and we were able to make 11 levels before the deadline.</p>
+    <p>I did the programming and game design, and teamed up with an artist to complete the art assets.</p>
 
-    <p>I took inspiration from Pac-Man to design the wolf behavior. Just like the ghosts, the wolves use a simple set of rules to emulate complex behavior. They appear to surround the sheep and apply pressure, but will also back off to give the player breathing space.</p>
+    <h4 style="text-align:left;">Project Highlights:</h4>
+    <ul>
+      <li>Implemented basic level editor</li>
+      <ul>
+        <li>Reads ASCII text to lay out tiles in the level</li>
+        <li>Completed 11 levels before the deadline</li>
+      </ul>
+      <li>Seemingly complex wolf behavior</li>
+      <ul>
+        <li>Governed by a set of rules based off Pac-Man</li>
+        <li>Appears to surround the player</li>
+        <li>Occasionally backs off to give player breathing space</li>
+      </ul>
+    </ul>
 
-    <p>I used C++ to make the game, and Box2D for the physics. The game is available on <a href="https://obachuka.itch.io/shepherd-and-dog">Windows and Chrome/Firefox</a>.</p>
+    <h4 style="text-align:left;">Specs:</h4>
+    <ul>
+      <li>
+        Language
+        <ul>
+          <li>C++</li>
+        </ul>
+      </li>
+      <li>
+        Libraries
+        <ul>
+          <li>SDL 2.0</li>
+          <li>Box2D</li>
+        </ul>
+      </li>
+      <li>
+        Platforms
+        <ul>
+          <li><a href="https://obachuka.itch.io/shepherd-and-dog">Windows</a></li>
+          <li><a href="https://obachuka.itch.io/shepherd-and-dog">Chrome/Firefox</a></li>
+        </ul>
+      </li>
+    </ul>
 
-    <h3><a href="https://obachuka.itch.io/asteroids-but-with-gravity">Asteroids But With Gravity<br><img src="https://img.itch.zone/aW1hZ2UvMjc0NTMzLzEzMjkyMTYuZ2lm/original/UvjQpX.gif"/></a></h3>
+    <h2 id="asteroids-but-with-gravity"><a href="https://obachuka.itch.io/asteroids-but-with-gravity">Asteroids But With Gravity<br><img src="https://img.itch.zone/aW1hZ2UvMjc0NTMzLzEzMjkyMTYuZ2lm/original/UvjQpX.gif"/></a></h2>
 
     <p>Asteroids But With Gravity is an Asteroids clone with a gravity gimmick. Players must shoot asteroids in the classic arcade style, while escaping the gravity of nearby planets.</p>
 
-    <p>Normally, objects loops around the screen in Asteroids, but I wanted a bigger playing field. In Asteroids But With Gravity, the screen follows the player, but the environment loops around for the same effect but without the appearance of abrubtly teleporting.</p>
+    <p>I developed the game solo.</p>
 
-    <p>I made the game alone using Unreal Engine 4, and Blender for the art assets. The game is available on <a href="https://obachuka.itch.io/asteroids-but-with-gravity">Windows.</a></p>
+    <h4 style="text-align:left;">Project Highlights:</h4>
+    <ul>
+      <li>Larger playing field than original Asteroid's screen-sized area</li>
+      <li>Entire environment still loops around, including gravity</li>
+    </ul>
+
+    <h4 style="text-align:left;">Specs:</h4>
+    <ul>
+      <li>
+        Language
+        <ul>
+          <li>C++</li>
+          <li>Blueprints</li>
+        </ul>
+      </li>
+      <li>
+        Game Engine
+        <ul>
+          <li>Unreal Engine 4</li>
+        </ul>
+      </li>
+      <li>
+        Platforms
+        <ul>
+          <li><a href="https://obachuka.itch.io/asteroids-but-with-gravity">Windows</a></li>
+        </ul>
+      </li>
+    </ul>
 
   </body>
 </html>
